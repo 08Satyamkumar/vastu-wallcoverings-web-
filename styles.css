@@ -467,7 +467,9 @@ header.scrolled {
   }
 
   .logo-tagline-custom {
-    display: none !important;
+    display: block !important;
+    font-size: 0.85rem !important;
+    margin-top: 0.1rem !important;
   }
 
   .header-actions {
@@ -592,6 +594,11 @@ header.scrolled {
 
   .logo-name-rest {
     font-size: 1.25rem !important;
+  }
+
+  .logo-tagline-custom {
+    font-size: 0.75rem !important;
+    margin-top: 0.05rem !important;
   }
 
   .header-actions {
