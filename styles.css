@@ -371,8 +371,6 @@ header.scrolled {
   transform: rotate(180deg);
 }
 
-}
-
 /* Mobile-only menu items are hidden on desktop */
 .mobile-only-menu-item {
   display: none !important;
