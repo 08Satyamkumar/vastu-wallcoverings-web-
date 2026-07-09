@@ -73,6 +73,42 @@
               <li><a href="#/gallery">Gallery</a></li>
             </ul>
           </li>
+          
+          <!-- Mobile Only Section -->
+          <li class="mobile-only-menu-item divider-item"><hr style="border: 0; border-top: 1px solid rgba(0,0,0,0.1); width: 100%; margin: 1.5rem 0;"></li>
+          <li class="mobile-only-menu-item"><a href="#/login" class="nav-link" id="nav-link-login-mobile"><i class="fa-regular fa-user" style="margin-right: 1.2rem; font-size: 1.6rem; width: 20px; text-align: center;"></i> Account</a></li>
+          <li class="mobile-only-menu-item"><a href="#/wishlist" class="nav-link" id="nav-link-wishlist-mobile"><i class="fa-regular fa-heart" style="margin-right: 1.2rem; font-size: 1.6rem; width: 20px; text-align: center;"></i> Wishlist</a></li>
+          <li class="mobile-only-menu-item select-currency-li" style="width: 100%; margin-top: 1.5rem; list-style: none;">
+            <div class="currency-switcher-mobile-wrapper" style="position: relative; width: 100%;">
+              <div class="currency-switcher" id="nav-currency-selector-mobile" style="cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; padding: 1.2rem 1.6rem; border: 1px solid #DCD9D2; border-radius: 4px; font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; background-color: #FFFFFF; width: 100%;">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                  <img src="https://flagcdn.com/w40/in.png" alt="India Flag" class="flag-icon" id="current-currency-flag-mobile" style="width: 22px; height: 14px; object-fit: cover;">
+                  <span id="current-currency-text-mobile">INR</span>
+                </div>
+                <i class="fa-solid fa-chevron-down" style="font-size: 0.95rem; color: #555;"></i>
+              </div>
+              <ul class="currency-dropdown" id="currency-dropdown-menu-mobile" style="display: none; position: absolute; bottom: 100%; left: 0; background-color: #FFFFFF; border: 1px solid #DCD9D2; border-radius: 4px; box-shadow: 0 -10px 30px rgba(0,0,0,0.08); list-style: none; padding: 0.5rem 0; width: 100%; z-index: 1100; margin-bottom: 0.5rem;">
+                <li onclick="App.selectCurrency('Auto Location', 'https://flagcdn.com/w40/in.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+                  <img src="https://flagcdn.com/w40/in.png" alt="India" style="width: 24px; height: 16px; object-fit: cover;"> Auto Location
+                </li>
+                <li onclick="App.selectCurrency('US Dollar (USD)', 'https://flagcdn.com/w40/us.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+                  <img src="https://flagcdn.com/w40/us.png" alt="USA" style="width: 24px; height: 16px; object-fit: cover;"> US Dollar (USD)
+                </li>
+                <li onclick="App.selectCurrency('Euro (EUR)', 'https://flagcdn.com/w40/eu.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+                  <img src="https://flagcdn.com/w40/eu.png" alt="EU" style="width: 24px; height: 16px; object-fit: cover;"> Euro (EUR)
+                </li>
+                <li onclick="App.selectCurrency('British Pound (GBP)', 'https://flagcdn.com/w40/gb.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+                  <img src="https://flagcdn.com/w40/gb.png" alt="UK" style="width: 24px; height: 16px; object-fit: cover;"> British Pound (GBP)
+                </li>
+                <li onclick="App.selectCurrency('Canadian Dollar (CAD)', 'https://flagcdn.com/w40/ca.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+                  <img src="https://flagcdn.com/w40/ca.png" alt="Canada" style="width: 24px; height: 16px; object-fit: cover;"> Canadian Dollar (CAD)
+                </li>
+                <li onclick="App.selectCurrency('Albanian Lek (ALL)', 'https://flagcdn.com/w40/al.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+                  <img src="https://flagcdn.com/w40/al.png" alt="Albania" style="width: 24px; height: 16px; object-fit: cover;"> Albanian Lek (ALL)
+                </li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </nav>
       

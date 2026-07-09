@@ -122,8 +122,12 @@ const App = {
     document.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('click', () => {
         const menu = document.querySelector('.nav-menu');
-        if (menu.classList.contains('open')) {
+        if (menu && menu.classList.contains('open')) {
           menu.classList.remove('open');
+        }
+        const toggle = document.querySelector('.mobile-toggle');
+        if (toggle && toggle.classList.contains('open')) {
+          toggle.classList.remove('open');
         }
       });
     });
@@ -224,9 +228,12 @@ const App = {
   initMobileNav() {
     const toggle = document.querySelector('.mobile-toggle');
     const menu = document.querySelector('.nav-menu');
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('open');
-    });
+    if (toggle && menu) {
+      toggle.addEventListener('click', () => {
+        menu.classList.toggle('open');
+        toggle.classList.toggle('open');
+      });
+    }
   },
 
   // ==========================================
@@ -1124,9 +1131,15 @@ const App = {
     const switcher = document.getElementById('nav-currency-selector');
     const menu = document.getElementById('currency-dropdown-menu');
     const arrow = document.getElementById('current-currency-arrow');
+    
+    const switcherMobile = document.getElementById('nav-currency-selector-mobile');
+    const menuMobile = document.getElementById('currency-dropdown-menu-mobile');
+
     if (switcher && menu) {
       switcher.addEventListener('click', (e) => {
         e.stopPropagation();
+        // Hide mobile menu if open
+        if (menuMobile) menuMobile.style.display = 'none';
         const isOpen = menu.style.display === 'block';
         menu.style.display = isOpen ? 'none' : 'block';
         if (arrow) {
@@ -1139,32 +1152,53 @@ const App = {
           }
         }
       });
+    }
 
-      document.addEventListener('click', () => {
-        menu.style.display = 'none';
-        if (arrow) {
-          arrow.classList.remove('fa-chevron-up');
-          arrow.classList.add('fa-chevron-down');
-        }
+    if (switcherMobile && menuMobile) {
+      switcherMobile.addEventListener('click', (e) => {
+        e.stopPropagation();
+        // Hide desktop menu if open
+        if (menu) menu.style.display = 'none';
+        const isOpen = menuMobile.style.display === 'block';
+        menuMobile.style.display = isOpen ? 'none' : 'block';
       });
     }
+
+    document.addEventListener('click', () => {
+      if (menu) menu.style.display = 'none';
+      if (menuMobile) menuMobile.style.display = 'none';
+      if (arrow) {
+        arrow.classList.remove('fa-chevron-up');
+        arrow.classList.add('fa-chevron-down');
+      }
+    });
   },
 
   selectCurrency(label, flagUrl) {
     const textSpan = document.getElementById('current-currency-text');
     const flagImg = document.getElementById('current-currency-flag');
-    if (textSpan && flagImg) {
-      if (label === 'Auto Location') {
-        textSpan.textContent = 'INR';
-      } else {
-        const matches = label.match(/\(([^)]+)\)/);
-        textSpan.textContent = matches ? matches[1] : label;
-      }
-      flagImg.src = flagUrl;
+    
+    const textSpanMobile = document.getElementById('current-currency-text-mobile');
+    const flagImgMobile = document.getElementById('current-currency-flag-mobile');
+
+    let currencyCode = 'INR';
+    if (label !== 'Auto Location') {
+      const matches = label.match(/\(([^)]+)\)/);
+      currencyCode = matches ? matches[1] : label;
     }
-    // Close dropdown
+
+    if (textSpan) textSpan.textContent = currencyCode;
+    if (flagImg) flagImg.src = flagUrl;
+    
+    if (textSpanMobile) textSpanMobile.textContent = currencyCode;
+    if (flagImgMobile) flagImgMobile.src = flagUrl;
+
+    // Close both dropdowns
     const menu = document.getElementById('currency-dropdown-menu');
     if (menu) menu.style.display = 'none';
+    
+    const menuMobile = document.getElementById('currency-dropdown-menu-mobile');
+    if (menuMobile) menuMobile.style.display = 'none';
   },
 
   // ==========================================
