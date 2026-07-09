@@ -83,7 +83,7 @@ main {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 2.4rem;
 }
 
 @media (max-width: 768px) {
@@ -136,6 +136,7 @@ header.scrolled {
   cursor: pointer;
   padding: 0.5rem 0;
   gap: 0.15rem;
+  margin-right: 4rem; /* Ensure minimum gap to push nav links away */
 }
 
 .logo-v {
