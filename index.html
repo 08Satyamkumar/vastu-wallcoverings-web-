@@ -1,0 +1,2376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO Meta Tags -->
+  <title>Vastu Home Decor India | Premium Wallpapers, Wallcoverings & Custom Murals</title>
+  <meta name="description" content="Explore India's No. 1 Wallcoverings brand. Discover 10,000+ premium wallpaper designs, custom digital murals from Vastu Home Decor Design Studio, and interactive room visualizers. Transform your home in 1 day.">
+  <meta name="keywords" content="wallpapers, wallcoverings, custom murals, interior decor, luxury home decor, wallpaper visualizer, Vastu Home Decor India">
+  <link rel="canonical" href="https://www.vastuhomedecor.com/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.vastuhomedecor.com/">
+  <meta property="og:title" content="Vastu Home Decor India | Premium Wallpapers & Wallcoverings">
+  <meta property="og:description" content="Transform your walls in just 1 day. Browse thousands of wallpaper collections and custom digital murals with our live room visualizer.">
+  <meta property="og:image" content="assets/room_mockup.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://www.vastuhomedecor.com/cdn/shop/files/favicon.png?crop=center&height=32&v=1760673048&width=32">
+  
+  <!-- FontAwesome Icons for Premium Look -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       GLOBAL HEADER & NAVIGATION
+       ========================================== -->
+  <header>
+    <div class="container header-container">
+      <a href="#/home" class="logo" id="header-logo">
+        <span class="logo-v">V</span>
+        <div class="logo-text-wrapper">
+          <span class="logo-name-rest">astu_home_decor</span>
+          <span class="logo-tagline-custom">India's No.1 Wallcoverings</span>
+        </div>
+      </a>
+      
+      <nav class="nav-bar">
+        <ul class="nav-menu" id="primary-nav-menu">
+          <li><a href="#/home" class="nav-link active" id="nav-link-home">Home</a></li>
+          <li><a href="#/collections" class="nav-link" id="nav-link-collections">Wallcovering</a></li>
+          <li><a href="#/mds" class="nav-link" id="nav-link-mds">Mural</a></li>
+          <li class="dropdown">
+            <a href="#/collections" class="nav-link" id="nav-link-sale">Sale <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#/collections">Clearance Sale</a></li>
+              <li><a href="#/collections">Discount Sale</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-link" id="nav-link-explore" onclick="event.preventDefault();">Explore <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+            <ul class="dropdown-menu" style="min-width: 26rem;">
+              <li><a href="#/why-wallcoverings">Why Wallcoverings</a></li>
+              <li><a href="#/why-wallcoverings">Pain_t v/s Wallcoverings</a></li>
+              <li><a href="#/home">Busting Myths</a></li>
+              <li><a href="#/partner">Architect/Designer Enquiry</a></li>
+              <li><a href="#/contact">Ask the Expert</a></li>
+              <li><a href="#/partners">Partner with us</a></li>
+              <li><a href="#/contact">Reach Us</a></li>
+              <li><a href="#/about">About Us</a></li>
+              <li><a href="#/home">Customer Feedback</a></li>
+              <li><a href="#/partners">Careers</a></li>
+              <li><a href="#/home">News & Events</a></li>
+              <li><a href="#/mds">MDS Collection</a></li>
+              <li><a href="#/blog">Blog</a></li>
+              <li><a href="#/gallery">Gallery</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions" style="position: relative;">
+        <!-- Centered Search Panel Overlay -->
+        <div class="search-overlay-bar" id="search-overlay" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #FFFFFF; z-index: 1050; align-items: center; justify-content: center; border-bottom: 1px solid #DCD9D2;">
+          <div style="display: flex; align-items: center; gap: 1.5rem; width: 100%; max-width: 600px; margin: 0 auto; padding: 0 2rem; position: relative;">
+            <div style="position: relative; flex: 1;">
+              <input type="text" id="global-search-input" placeholder="Search" style="width: 100%; padding: 0.8rem 4.5rem 0.8rem 2rem; border: 1.5px solid #1a1a1a; border-radius: 4px; font-size: 1.4rem; font-family: var(--font-body); font-weight: 600;">
+              <i class="fa-solid fa-magnifying-glass" style="position: absolute; right: 1.5rem; top: 50%; transform: translateY(-50%); font-size: 1.5rem; color: #1a1a1a; cursor: pointer;" onclick="App.triggerGlobalSearch()"></i>
+            </div>
+            <i class="fa-solid fa-xmark" id="close-search-btn" style="font-size: 2.2rem; color: #666; cursor: pointer; transition: color 0.2s ease;"></i>
+          </div>
+        </div>
+
+        <a href="#" class="header-icon-link" id="nav-search-btn" aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="#/login" class="header-icon-link" id="nav-user-btn" aria-label="Account">
+          <i class="fa-regular fa-user"></i>
+        </a>
+        <a href="#/wishlist" class="header-icon-link" id="nav-wishlist-btn" aria-label="Wishlist">
+          <i class="fa-regular fa-heart"></i>
+          <span class="wishlist-badge">0</span>
+        </a>
+        <a href="#" class="header-icon-link" id="nav-cart-btn" aria-label="Cart" onclick="App.toggleCartDrawer(true); event.preventDefault();">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+        
+        <!-- Currency Dropdown Wrapper -->
+        <div class="currency-switcher-wrapper" style="position: relative; display: inline-block;">
+          <div class="currency-switcher" id="nav-currency-selector" style="cursor: pointer; display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem 1.2rem; border: 1px solid #DCD9D2; border-radius: 4px; font-family: var(--font-body); font-size: 1.3rem; font-weight: 700; background-color: #FFFFFF;">
+            <img src="https://flagcdn.com/w40/in.png" alt="India Flag" class="flag-icon" id="current-currency-flag" style="width: 22px; height: 14px; object-fit: cover;">
+            <span id="current-currency-text">INR</span>
+            <i class="fa-solid fa-chevron-down currency-arrow" id="current-currency-arrow" style="font-size: 0.95rem; color: #555; transition: transform 0.25s ease;"></i>
+          </div>
+          <ul class="currency-dropdown" id="currency-dropdown-menu" style="display: none; position: absolute; top: 100%; right: 0; background-color: #FFFFFF; border: 1px solid #DCD9D2; border-radius: 4px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); list-style: none; padding: 0.5rem 0; min-width: 22rem; z-index: 1100; margin-top: 0.5rem;">
+            <li onclick="App.selectCurrency('Auto Location', 'https://flagcdn.com/w40/in.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+              <img src="https://flagcdn.com/w40/in.png" alt="India" style="width: 24px; height: 16px; object-fit: cover;"> Auto Location
+            </li>
+            <li onclick="App.selectCurrency('US Dollar (USD)', 'https://flagcdn.com/w40/us.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+              <img src="https://flagcdn.com/w40/us.png" alt="USA" style="width: 24px; height: 16px; object-fit: cover;"> US Dollar (USD)
+            </li>
+            <li onclick="App.selectCurrency('Euro (EUR)', 'https://flagcdn.com/w40/eu.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+              <img src="https://flagcdn.com/w40/eu.png" alt="EU" style="width: 24px; height: 16px; object-fit: cover;"> Euro (EUR)
+            </li>
+            <li onclick="App.selectCurrency('British Pound (GBP)', 'https://flagcdn.com/w40/gb.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+              <img src="https://flagcdn.com/w40/gb.png" alt="UK" style="width: 24px; height: 16px; object-fit: cover;"> British Pound (GBP)
+            </li>
+            <li onclick="App.selectCurrency('Canadian Dollar (CAD)', 'https://flagcdn.com/w40/ca.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+              <img src="https://flagcdn.com/w40/ca.png" alt="Canada" style="width: 24px; height: 16px; object-fit: cover;"> Canadian Dollar (CAD)
+            </li>
+            <li onclick="App.selectCurrency('Albanian Lek (ALL)', 'https://flagcdn.com/w40/al.png')" style="display: flex; align-items: center; gap: 1.2rem; padding: 1rem 1.8rem; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; transition: all 0.2s ease; font-family: var(--font-body); font-weight: 600;">
+              <img src="https://flagcdn.com/w40/al.png" alt="Albania" style="width: 24px; height: 16px; object-fit: cover;"> Albanian Lek (ALL)
+            </li>
+          </ul>
+        </div>
+        
+        <div class="mobile-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         PAGE VIEW: HOME
+         ========================================== -->
+    <div id="view-home" class="page-view">
+      <!-- Hero Slider Section -->
+      <section class="hero-section" id="home-hero-slider">
+        <!-- JS will dynamically inject slider cards here -->
+      </section>
+
+      <!-- Shop By Collection Section (Circular Avatar Slider) -->
+      <section class="shop-by-collection section-padding" id="home-shop-by-collection">
+        <div class="container" style="max-width: 100%; padding: 0; overflow: hidden;">
+          <div class="section-header" style="margin-bottom: 3rem;">
+            <h2 class="section-title" style="font-size: 3.2rem; text-align: center;">Shop By Collection</h2>
+          </div>
+          
+          <div class="collection-circles-marquee">
+            <div class="collection-circles-track">
+              <!-- Set 1 (Original) -->
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Sanskriti')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/sanskriti_ethnic.png" alt="Sanskriti">
+                </div>
+                <span class="circle-title">Sanskriti</span>
+              </div>
+              
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Florina')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/florina_botanical.png" alt="Florina">
+                </div>
+                <span class="circle-title">Florina</span>
+              </div>
+              
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Bohemia')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/bohemia_geometric.png" alt="Bohemia">
+                </div>
+                <span class="circle-title">Bohemia</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Prakriti')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/sanskriti_ethnic.png" alt="Prakriti" style="filter: hue-rotate(90deg) saturate(80%);">
+                </div>
+                <span class="circle-title">Prakriti</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Chelsea')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/florina_botanical.png" alt="Chelsea" style="filter: grayscale(90%) brightness(110%);">
+                </div>
+                <span class="circle-title">Chelsea</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Muasir')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/bohemia_geometric.png" alt="Muasir" style="filter: invert(10%) brightness(95%);">
+                </div>
+                <span class="circle-title">Muasir</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Ombre')">
+                <div class="circle-img-wrapper">
+                  <div style="width:100%; height:100%; border-radius:50%; background: linear-gradient(135deg, #FAF9F6, #C5A880);"></div>
+                </div>
+                <span class="circle-title">Ombre</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Nirvana')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/sanskriti_ethnic.png" alt="Nirvana" style="filter: sepia(70%) brightness(105%);">
+                </div>
+                <span class="circle-title">Nirvana</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Organic')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/florina_botanical.png" alt="Organic" style="filter: saturate(140%) hue-rotate(60deg) brightness(90%);">
+                </div>
+                <span class="circle-title">Organic</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Funzone')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/bohemia_geometric.png" alt="Funzone" style="filter: hue-rotate(240deg) saturate(110%);">
+                </div>
+                <span class="circle-title">Funzone</span>
+              </div>
+
+              <!-- Set 2 (Duplicate for Seamless Loop) -->
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Sanskriti')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/sanskriti_ethnic.png" alt="Sanskriti">
+                </div>
+                <span class="circle-title">Sanskriti</span>
+              </div>
+              
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Florina')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/florina_botanical.png" alt="Florina">
+                </div>
+                <span class="circle-title">Florina</span>
+              </div>
+              
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Bohemia')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/bohemia_geometric.png" alt="Bohemia">
+                </div>
+                <span class="circle-title">Bohemia</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Prakriti')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/sanskriti_ethnic.png" alt="Prakriti" style="filter: hue-rotate(90deg) saturate(80%);">
+                </div>
+                <span class="circle-title">Prakriti</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Chelsea')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/florina_botanical.png" alt="Chelsea" style="filter: grayscale(90%) brightness(110%);">
+                </div>
+                <span class="circle-title">Chelsea</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Muasir')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/bohemia_geometric.png" alt="Muasir" style="filter: invert(10%) brightness(95%);">
+                </div>
+                <span class="circle-title">Muasir</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Ombre')">
+                <div class="circle-img-wrapper">
+                  <div style="width:100%; height:100%; border-radius:50%; background: linear-gradient(135deg, #FAF9F6, #C5A880);"></div>
+                </div>
+                <span class="circle-title">Ombre</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Nirvana')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/sanskriti_ethnic.png" alt="Nirvana" style="filter: sepia(70%) brightness(105%);">
+                </div>
+                <span class="circle-title">Nirvana</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Organic')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/florina_botanical.png" alt="Organic" style="filter: saturate(140%) hue-rotate(60deg) brightness(90%);">
+                </div>
+                <span class="circle-title">Organic</span>
+              </div>
+
+              <div class="collection-circle-item" onclick="App.filterCatalogByCollection('Funzone')">
+                <div class="circle-img-wrapper">
+                  <img src="assets/bohemia_geometric.png" alt="Funzone" style="filter: hue-rotate(240deg) saturate(110%);">
+                </div>
+                <span class="circle-title">Funzone</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Shop By Category Section -->
+      <section class="shop-by-category section-padding" id="home-shop-by-category">
+        <div class="container">
+          <div class="section-header" style="margin-bottom: 5rem;">
+            <h2 class="section-title" style="font-size: 3.2rem; text-align: center; margin-bottom: 1.5rem;">Shop By Category</h2>
+            <p style="font-size: 1.5rem; color: var(--color-text-secondary); text-align: center; max-width: 900px; margin: 0 auto; line-height: 1.6;">
+              These are repetitive patterns which normally repeat in the size of 20"x20" or 40"x40" and are printed in roll formats of 1.04m x 5m. Depending on the design / texture these can be used for all walls.
+            </p>
+          </div>
+          
+          <div class="category-grid-container">
+            <!-- Column 1 -->
+            <div class="category-column">
+              <!-- Textures (Medium) -->
+              <div class="category-card" onclick="App.filterCatalogByPattern('Geometric')">
+                <img src="assets/textures_category.png" alt="Textures">
+                <div class="category-overlay">
+                  <span class="category-name">Textures</span>
+                </div>
+              </div>
+              
+              <!-- Florals (Medium) -->
+              <div class="category-card" onclick="App.filterCatalogByPattern('Floral')">
+                <img src="assets/florals_category.png" alt="Florals">
+                <div class="category-overlay">
+                  <span class="category-name">Florals</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Column 2 (Taller middle column) -->
+            <div class="category-column column-wide">
+              <!-- Kids (Tall) -->
+              <div class="category-card card-tall" onclick="App.filterCatalogByPattern('Floral')">
+                <img src="assets/kids_category.png" alt="Kids">
+                <div class="category-overlay">
+                  <span class="category-name">Kids</span>
+                </div>
+              </div>
+              
+              <!-- Sub-row containing side-by-side small cards -->
+              <div class="category-sub-row">
+                <!-- Geometrics -->
+                <div class="category-card card-small" onclick="App.filterCatalogByPattern('Geometric')">
+                  <img src="assets/geometrics_category.png" alt="Geometrics">
+                  <div class="category-overlay">
+                    <span class="category-name">Geometrics</span>
+                  </div>
+                </div>
+                
+                <!-- Damask -->
+                <div class="category-card card-small" onclick="App.filterCatalogByPattern('Ethnic')">
+                  <img src="assets/damask_category.png" alt="Damask">
+                  <div class="category-overlay">
+                    <span class="category-name">Damask</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Column 3 -->
+            <div class="category-column">
+              <!-- Stripes (Medium) -->
+              <div class="category-card" onclick="App.filterCatalogByPattern('Geometric')">
+                <img src="assets/stripes_category.png" alt="Stripes">
+                <div class="category-overlay">
+                  <span class="category-name">Stripes</span>
+                </div>
+              </div>
+              
+              <!-- Abstract (Medium) -->
+              <div class="category-card" onclick="App.filterCatalogByPattern('Geometric')">
+                <img src="assets/abstract_category.png" alt="Abstract">
+                <div class="category-overlay">
+                  <span class="category-name">Abstract</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Shop Wall Murals Section -->
+      <section class="shop-wall-murals section-padding" id="home-shop-wall-murals">
+        <div class="container">
+          <div class="section-header" style="margin-bottom: 5rem;">
+            <h2 class="section-title" style="font-size: 3.2rem; text-align: center; margin-bottom: 1.5rem;">Shop Wall Murals</h2>
+            <p style="font-size: 1.5rem; color: var(--color-text-secondary); text-align: center; max-width: 900px; margin: 0 auto; line-height: 1.6;">
+              These are one wall designs and non repeat patterns which can be paintings, images, large scale prints etc. These are customised as per the wall size and are generally used as a one wall feature highlight.
+            </p>
+          </div>
+          
+          <div class="murals-grid">
+            <!-- Row 1 -->
+            <div class="mural-card" onclick="window.location.hash = '#/mds'">
+              <div class="mural-img-wrapper">
+                <img src="assets/mural_autograph.png" alt="Autograph">
+              </div>
+              <span class="mural-title">Autograph</span>
+            </div>
+            
+            <div class="mural-card" onclick="window.location.hash = '#/mds'">
+              <div class="mural-img-wrapper">
+                <img src="assets/mural_funzone.png" alt="Fun Zone">
+              </div>
+              <span class="mural-title">Fun Zone</span>
+            </div>
+            
+            <div class="mural-card" onclick="window.location.hash = '#/mds'">
+              <div class="mural-img-wrapper">
+                <img src="assets/mural_krsnaa.png" alt="KRSNAA Mehta">
+              </div>
+              <span class="mural-title">KRSNAA Mehta</span>
+            </div>
+            
+            <div class="mural-card" onclick="window.location.hash = '#/mds'">
+              <div class="mural-img-wrapper">
+                <img src="assets/mural_landscape.png" alt="Landscape">
+              </div>
+              <span class="mural-title">Landscape</span>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="mural-card" onclick="window.location.hash = '#/mds'">
+              <div class="mural-img-wrapper">
+                <img src="assets/mural_prakriti.png" alt="Prakriti">
+              </div>
+              <span class="mural-title">Prakriti</span>
+            </div>
+            
+            <div class="mural-card" onclick="window.location.hash = '#/mds'">
+              <div class="mural-img-wrapper">
+                <img src="assets/mural_paradise.png" alt="Paradise">
+              </div>
+              <span class="mural-title">Paradise</span>
+            </div>
+            
+            <div class="mural-card" onclick="window.location.hash = '#/mds'">
+              <div class="mural-img-wrapper">
+                <img src="assets/florina_botanical.png" alt="Parisian" style="filter: hue-rotate(330deg) saturate(95%) sepia(20%) brightness(105%);">
+              </div>
+              <span class="mural-title">Parisian</span>
+            </div>
+            
+            <div class="mural-card" onclick="window.location.hash = '#/mds'">
+              <div class="mural-img-wrapper">
+                <img src="assets/florina_botanical.png" alt="The Artist" style="filter: sepia(35%) brightness(102%) saturate(90%);">
+              </div>
+              <span class="mural-title">The Artist</span>
+            </div>
+          </div>
+          
+          <div style="text-align: center; margin-top: 5rem;">
+            <a href="#/mds" class="mural-explore-btn">Explore All Murals</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- MDS Make in India Studio Promo Section -->
+      <section class="mds-make-in-india-section section-padding" id="home-mds-make-in-india">
+        <div class="container">
+          <!-- Top Header: Make in India -->
+          <div class="make-in-india-header">
+            <img src="assets/make_in_india.jpg" alt="Make in India Logo" class="make-in-india-logo">
+            <h3 class="make-in-india-tagline">10,000+ themes and designs!</h3>
+          </div>
+          
+          <!-- Middle Branding & Desc Row -->
+          <div class="mds-promo-row">
+            <div class="mds-logo-column">
+              <!-- Custom styled vector gold ornament brand emblem -->
+              <div class="mds-branding-emblem">
+                <svg viewBox="0 0 100 100" class="mds-gold-svg">
+                  <circle cx="50" cy="50" r="45" fill="none" stroke="#c5a880" stroke-width="2" />
+                  <circle cx="50" cy="50" r="38" fill="none" stroke="#c5a880" stroke-width="1" stroke-dasharray="4,2" />
+                  <!-- Ornate petals/leaves -->
+                  <path d="M 50 5 Q 55 18 50 25 Q 45 18 50 5" fill="none" stroke="#c5a880" stroke-width="1.5" />
+                  <path d="M 50 95 Q 55 82 50 75 Q 45 82 50 95" fill="none" stroke="#c5a880" stroke-width="1.5" />
+                  <path d="M 5 50 Q 18 55 25 50 Q 18 45 5 50" fill="none" stroke="#c5a880" stroke-width="1.5" />
+                  <path d="M 95 50 Q 82 55 75 50 Q 82 45 95 50" fill="none" stroke="#c5a880" stroke-width="1.5" />
+                  <path d="M 18 18 Q 30 30 32 32 Q 20 20 18 18" fill="none" stroke="#c5a880" stroke-width="1.5" />
+                  <path d="M 82 82 Q 70 70 68 68 Q 80 80 82 82" fill="none" stroke="#c5a880" stroke-width="1.5" />
+                  <path d="M 82 18 Q 70 30 68 32 Q 80 20 82 18" fill="none" stroke="#c5a880" stroke-width="1.5" />
+                  <path d="M 18 82 Q 30 70 32 68 Q 20 80 18 82" fill="none" stroke="#c5a880" stroke-width="1.5" />
+                  <text x="50" y="58" font-family="'Outfit', sans-serif" font-size="24" font-weight="700" fill="#c5a880" text-anchor="middle">M</text>
+                </svg>
+              </div>
+              <h4 class="mds-red-title">MDS</h4>
+              <p class="mds-blue-subtitle">Vastu Home Decor Design Studio</p>
+            </div>
+            
+            <div class="mds-desc-column">
+              <p class="mds-promo-paragraph">
+                Vastu Home Decor has its in-house full-fledged design studio with brilliant artists who can create any design craved by our customers. Every quarter we launch at least one new catalogue designed and developed by our Studio.
+              </p>
+              <a href="#/mds" class="mds-explore-more-btn">Explore More</a>
+            </div>
+          </div>
+          
+          <!-- Lower Collage Grid -->
+          <div class="mds-collage-container">
+            <div class="mds-collage-grid">
+              <!-- Cell 1 -->
+              <div class="collage-cell cell-c1">
+                <img src="assets/florina_botanical.png" alt="Swatch" style="filter: sepia(20%) brightness(102%);">
+              </div>
+              <!-- Cell 2 -->
+              <div class="collage-cell cell-c2">
+                <img src="assets/sanskriti_ethnic.png" alt="Swatch" style="filter: hue-rotate(40deg) saturate(90%);">
+              </div>
+              <!-- Cell 3 (Text: Collaborate) -->
+              <div class="collage-cell cell-c3 collage-text-card text-card-brown">
+                <p class="collage-text-content">Collaborate.<br>Design. Print.<br>Supply.</p>
+              </div>
+              <!-- Cell 4 -->
+              <div class="collage-cell cell-c4">
+                <img src="assets/bohemia_geometric.png" alt="Swatch" style="filter: grayscale(20%) sepia(10%);">
+              </div>
+              <!-- Cell 5 -->
+              <div class="collage-cell cell-c5">
+                <img src="assets/florina_botanical.png" alt="Swatch" style="filter: saturate(80%) brightness(110%);">
+              </div>
+              <!-- Cell 6 -->
+              <div class="collage-cell cell-c6">
+                <img src="assets/sanskriti_ethnic.png" alt="Swatch" style="filter: brightness(90%) hue-rotate(15deg);">
+              </div>
+              <!-- Cell 7 -->
+              <div class="collage-cell cell-c7">
+                <img src="assets/mural_krsnaa.png" alt="Swatch">
+              </div>
+              <!-- Cell 8 -->
+              <div class="collage-cell cell-c8">
+                <img src="assets/mural_funzone.png" alt="Swatch">
+              </div>
+              <!-- Cell 9 (Text: Wallcoverings) -->
+              <div class="collage-cell cell-c9 collage-text-card text-card-pink">
+                <p class="collage-text-content">Wallcoverings.<br>Murals.</p>
+              </div>
+              <!-- Cell 10 -->
+              <div class="collage-cell cell-c10">
+                <img src="assets/mural_landscape.png" alt="Swatch">
+              </div>
+              <!-- Cell 11 -->
+              <div class="collage-cell cell-c11">
+                <img src="assets/mural_prakriti.png" alt="Swatch">
+              </div>
+              <!-- Cell 12 (Text: Eco Friendly) -->
+              <div class="collage-cell cell-c12 collage-text-card text-card-grey">
+                <p class="collage-text-content">Eco Friendly<br>and<br>Sustainable.</p>
+              </div>
+              <!-- Cell 13 -->
+              <div class="collage-cell cell-c13">
+                <img src="assets/mural_paradise.png" alt="Swatch">
+              </div>
+              <!-- Cell 14 -->
+              <div class="collage-cell cell-c14">
+                <img src="assets/textures_category.png" alt="Swatch">
+              </div>
+              <!-- Cell 15 -->
+              <div class="collage-cell cell-c15">
+                <img src="assets/abstract_category.png" alt="Swatch">
+              </div>
+              
+              <!-- Floating Card with Golden Frame -->
+              <div class="collage-floating-card">
+                <h4 class="floating-card-title">Crafted in India,<br>Designed for<br>the World</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Google Reviews Section -->
+      <section class="google-reviews-section section-padding" id="home-google-reviews">
+        <div class="container">
+          <div class="reviews-header-row">
+            <div class="reviews-title-block">
+              <h2 class="reviews-section-title">Vastu Home Decor Wallcoverings - Wallpaper For Home</h2>
+              <div class="reviews-overall-rating">
+                <span class="rating-number">4.2</span>
+                <div class="rating-stars">
+                  <i class="fa-solid fa-star gold"></i>
+                  <i class="fa-solid fa-star gold"></i>
+                  <i class="fa-solid fa-star gold"></i>
+                  <i class="fa-solid fa-star gold"></i>
+                  <i class="fa-solid fa-star-half-stroke gold"></i>
+                </div>
+                <span class="rating-count">114 reviews</span>
+              </div>
+            </div>
+            
+            <button class="reviews-btn-review" onclick="window.open('https://search.google.com/local/writereview?placeid=ChIJ-4G5lMuzxzsR-t9UqS-U_fI', '_blank')">Review us</button>
+          </div>
+          
+          <!-- Carousel Slider Container -->
+          <div class="reviews-carousel-wrapper">
+            <button class="carousel-nav-btn prev-btn" id="reviews-prev-btn" aria-label="Previous reviews">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            
+            <div class="reviews-carousel-track-container" id="reviews-carousel-container">
+              <div class="reviews-carousel-track" id="reviews-slider-track">
+                <!-- Card 1 -->
+                <div class="review-card">
+                  <div class="card-top-row">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" class="google-icon">
+                  </div>
+                  <p class="review-text">Awesome experience as always. Outstanding texture selection and very cooperative decorators.</p>
+                  <div class="reviewer-info">
+                    <div class="reviewer-avatar avatar-v">V</div>
+                    <div class="reviewer-meta">
+                      <h4 class="reviewer-name">Vensubban</h4>
+                      <span class="review-date">2 months ago</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="review-card">
+                  <div class="card-top-row">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" class="google-icon">
+                  </div>
+                  <p class="review-text">Superb collections! The installation team completed 3 bedrooms in under 24 hours. Highly recommended.</p>
+                  <div class="reviewer-info">
+                    <div class="reviewer-avatar avatar-a">A</div>
+                    <div class="reviewer-meta">
+                      <h4 class="reviewer-name">Ayushi Agrawal</h4>
+                      <span class="review-date">2 months ago</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="review-card">
+                  <div class="card-top-row">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" class="google-icon">
+                  </div>
+                  <p class="review-text">Amazing and superb quality royal look last for decades ✌ love it and happy to innovate... <a href="#" class="more-link" onclick="event.preventDefault();">More</a></p>
+                  <div class="reviewer-info">
+                    <div class="reviewer-avatar avatar-k">K</div>
+                    <div class="reviewer-meta">
+                      <h4 class="reviewer-name">Kavita Kabade</h4>
+                      <span class="review-date">2 months ago</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="review-card">
+                  <div class="card-top-row">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" class="google-icon">
+                  </div>
+                  <p class="review-text">Elegant patterns and premium texture finish. The decor consultants gave us the perfect suggestions.</p>
+                  <div class="reviewer-info">
+                    <div class="reviewer-avatar avatar-r">R</div>
+                    <div class="reviewer-meta">
+                      <h4 class="reviewer-name">Raveena Kudave</h4>
+                      <span class="review-date">2 months ago</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Card 5 -->
+                <div class="review-card">
+                  <div class="card-top-row">
+                    <div class="card-stars">
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-solid fa-star gold"></i>
+                      <i class="fa-regular fa-star grey"></i>
+                      <i class="fa-regular fa-star grey"></i>
+                      <i class="fa-regular fa-star grey"></i>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" class="google-icon">
+                  </div>
+                  <p class="review-text">Quality is decent, but delivery took longer than expected due to shipping delays.</p>
+                  <div class="reviewer-info">
+                    <div class="reviewer-avatar avatar-s">S</div>
+                    <div class="reviewer-meta">
+                      <h4 class="reviewer-name">Suraj Bali</h4>
+                      <span class="review-date">3 months ago</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <button class="carousel-nav-btn next-btn" id="reviews-next-btn" aria-label="Next reviews">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Wallcoverings Section -->
+      <section class="why-wallcoverings-section section-padding" id="home-why-wallcoverings">
+        <div class="container">
+          <h2 class="section-title text-center" style="font-size: 3.2rem; margin-bottom: 5rem;">Why wallcoverings?</h2>
+          
+          <div class="why-wallcoverings-row">
+            <!-- Left Side Image -->
+            <div class="why-wallcoverings-img-col">
+              <div class="why-wallcoverings-frame">
+                <img src="assets/textures_category.png" alt="Premium textured wallpaper rolls" class="why-wallcoverings-banner">
+              </div>
+            </div>
+            
+            <!-- Right Side Interactive Tab Controls -->
+            <div class="why-wallcoverings-content-col">
+              <div class="tabs-control-grid">
+                <button class="tab-control-btn" onclick="App.switchWhyTab(this, 'hours')">
+                  <i class="fa-solid fa-clock tab-icon"></i>
+                  <span class="tab-title">6 Hours Application</span>
+                </button>
+                
+                <button class="tab-control-btn" onclick="App.switchWhyTab(this, 'life')">
+                  <i class="fa-solid fa-hourglass-half tab-icon"></i>
+                  <span class="tab-title">Long Life</span>
+                </button>
+                
+                <button class="tab-control-btn" onclick="App.switchWhyTab(this, 'washable')">
+                  <i class="fa-solid fa-soap tab-icon"></i>
+                  <span class="tab-title">Washable</span>
+                </button>
+                
+                <button class="tab-control-btn" onclick="App.switchWhyTab(this, 'energy')">
+                  <i class="fa-solid fa-leaf tab-icon"></i>
+                  <span class="tab-title">Energy Saver</span>
+                </button>
+                
+                <button class="tab-control-btn" onclick="App.switchWhyTab(this, 'fire')">
+                  <i class="fa-solid fa-fire-extinguisher tab-icon"></i>
+                  <span class="tab-title">Fire Retardant</span>
+                </button>
+                
+                <button class="tab-control-btn" onclick="App.switchWhyTab(this, 'hygienic')">
+                  <i class="fa-solid fa-shield-virus tab-icon"></i>
+                  <span class="tab-title">Hygienic</span>
+                </button>
+                
+                <button class="tab-control-btn active-tab" onclick="App.switchWhyTab(this, 'safety')">
+                  <i class="fa-solid fa-user-shield tab-icon"></i>
+                  <span class="tab-title">Safety</span>
+                </button>
+                
+                <button class="tab-control-btn" onclick="App.switchWhyTab(this, 'eco')">
+                  <i class="fa-solid fa-earth-americas tab-icon"></i>
+                  <span class="tab-title">Eco Friendly</span>
+                </button>
+              </div>
+              
+              <!-- Tab Content Box -->
+              <div class="tab-display-box">
+                <h3 class="tab-display-title" id="why-display-title">Safety</h3>
+                <div class="tab-display-body" id="why-display-body">
+                  <p>Lead is contained in paints, when paints wear off lead-flake leakage can be hazardous to health. Vastu Home Decor Wallcoverings have '0' lead and hence are truly safe.</p>
+                  <p>Dust too, is repelled from Vastu Home Decor Wallcoverings; assuring clearer breathing for all. For every space in which hygiene is vital, Vastu Home Decor Wallcoverings is the natural choice.</p>
+                  <p>Paints contain lead, which is harmful and hazardous to health. Wallcoverings contain no lead, and are made with water based inks. Thus, very safe.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Wallcoverings v/s Paint Section -->
+      <section class="compare-carousel-section section-padding" id="home-comparison">
+        <div class="container">
+          <h2 class="section-title text-center" style="font-size: 3.2rem; margin-bottom: 4rem;">Wallcoverings v/s Paint</h2>
+          
+          <div class="compare-carousel-container">
+            <div class="compare-canvases-row">
+              <!-- Left Side: Wallpaper Canvas -->
+              <div class="compare-canvas-wrapper">
+                <canvas id="compare-canvas-left" class="compare-canvas-element"></canvas>
+                <div class="compare-canvas-label">Wallcoverings</div>
+              </div>
+              
+              <!-- Right Side: Paint Canvas -->
+              <div class="compare-canvas-wrapper" style="position: relative;">
+                <canvas id="compare-canvas-right" class="compare-canvas-element"></canvas>
+                <div class="compare-canvas-label">Paint</div>
+                
+                <!-- Chevron buttons in the bottom right corner of the right container -->
+                <div class="compare-carousel-nav">
+                  <button class="compare-nav-btn prev" id="compare-prev-btn" aria-label="Previous comparison">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <button class="compare-nav-btn next" id="compare-next-btn" aria-label="Next comparison">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Instagram Section -->
+      <section class="instagram-section section-padding" id="home-instagram">
+        <div class="container">
+          <div class="section-header text-center" style="margin-bottom: 4rem;">
+            <h2 class="section-title" style="font-size: 3.2rem; margin-bottom: 1.5rem;">Follow us on Instagram</h2>
+            <p style="font-size: 1.5rem; color: var(--color-text-secondary); max-width: 600px; margin: 0 auto;">Join our community for daily inspiration and a closer look at our creations</p>
+          </div>
+          
+          <div class="instagram-grid">
+            <!-- Row 1 -->
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/textures_category.png" alt="Insta Post">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                <div class="insta-overlay">
+                  <span class="insta-subtitle">He's always great.</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/room_mockup.png" alt="Insta Post">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                <div class="insta-overlay">
+                  <span class="insta-subtitle">our design into their</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/florina_botanical.png" alt="Insta Post" style="filter: sepia(10%);">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/bohemia_geometric.png" alt="Insta Post" style="filter: brightness(80%) saturate(120%);">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                <div class="insta-overlay">
+                  <span class="insta-subtitle" style="color: #ff3344; font-weight: 700;">Vastu Home Decor wallpaper</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/florina_botanical.png" alt="Insta Post" style="filter: brightness(110%) saturate(90%);">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/sanskriti_ethnic.png" alt="Insta Post" style="filter: hue-rotate(20deg);">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                <div class="insta-overlay">
+                  <span class="insta-subtitle">completed in just one</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/mural_landscape.png" alt="Insta Post">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/mural_prakriti.png" alt="Insta Post">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/textures_category.png" alt="Insta Post" style="filter: brightness(95%) sepia(20%);">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/florina_botanical.png" alt="Insta Post">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                <div class="insta-overlay">
+                  <span class="insta-subtitle">It's completely done with</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/mural_paradise.png" alt="Insta Post">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/mural_krsnaa.png" alt="Insta Post">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/bohemia_geometric.png" alt="Insta Post">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/mural_prakriti.png" alt="Insta Post" style="filter: saturate(110%) brightness(102%);">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+              </div>
+            </div>
+            
+            <div class="instagram-card" onclick="window.open('https://www.instagram.com/Vastu Home Decorindia/', '_blank')">
+              <div class="insta-img-wrapper">
+                <img src="assets/mural_landscape.png" alt="Insta Post" style="filter: brightness(95%);">
+                <div class="insta-reels-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                <div class="insta-overlay">
+                  <span class="insta-subtitle">common reaction we get</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div style="text-align: center; margin-top: 4.5rem;">
+            <a href="https://www.instagram.com/Vastu Home Decorindia/" target="_blank" class="instagram-visit-btn">Visit Instagram</a>
+          </div>
+      </section>
+
+      <!-- CTA Buttons Banner Section -->
+      <section class="cta-banner-section section-padding" id="home-cta-banner" style="background-color: #FCFBFA; padding: 6rem 0;">
+        <div class="container text-center">
+          <h4 class="cta-banner-title">10,000+ THEMES AND DESIGNS!</h4>
+          
+          <div class="cta-buttons-row">
+            <!-- WhatsApp Consultation -->
+            <a href="https://wa.me/919999999999" target="_blank" class="cta-banner-btn btn-dark-whatsapp">
+              <span class="cta-icon-wrapper circle-green">
+                <i class="fa-brands fa-whatsapp"></i>
+              </span>
+              <span class="cta-btn-text">Connect for an Expert Consultation</span>
+            </a>
+            
+            <!-- Phone Call -->
+            <a href="tel:+919999999999" class="cta-banner-btn btn-outline-phone">
+              <span class="cta-icon-wrapper circle-red">
+                <i class="fa-solid fa-phone"></i>
+              </span>
+              <span class="cta-btn-text">Get in Touch Today!</span>
+            </a>
+            
+            <!-- Form Action -->
+            <button class="cta-banner-btn btn-outline-step" onclick="App.openEnquiryModal('Consultation Banner Enquiry')">
+              <span class="cta-icon-wrapper circle-grey">
+                <i class="fa-solid fa-clipboard-list"></i>
+              </span>
+              <span class="cta-btn-text">Your Next Step Starts Here!</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           EXPLORE OUR STUDIO SECTION
+           ========================================== -->
+      <section class="explore-studio-section section-padding" id="home-explore-studio">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header text-center" style="margin-bottom: 4rem;">
+            <span class="section-subtitle" style="letter-spacing: 0.15em; font-size: 1.2rem;">VASTU HOME DECOR DESIGN STUDIO</span>
+            <h2 class="section-title" style="font-size: 3.6rem; margin-top: 0.8rem;">Explore Our Studio</h2>
+            <p style="font-size: 1.5rem; color: var(--color-text-secondary); max-width: 550px; margin: 1.2rem auto 0;">
+              Step inside our world-class design studio — where creativity meets craftsmanship.
+            </p>
+          </div>
+
+          <!-- Two Side-by-Side Studio Photos -->
+          <div class="studio-photos-row">
+
+            <!-- Studio Photo 1 -->
+            <div class="studio-photo-card">
+              <div class="studio-photo-img-wrapper">
+                <img src="assets/studio_interior_1.png" alt="Vastu Home Decor Studio Interior - Circular Display">
+                <div class="studio-photo-overlay">
+                  <div class="studio-overlay-tag">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Mumbai Flagship Store</span>
+                  </div>
+                </div>
+              </div>
+              <div class="studio-photo-caption">
+                <h4>Circular Display Lounge</h4>
+                <p>Experience our curated collections in an immersive 360° display.</p>
+              </div>
+            </div>
+
+            <!-- Studio Photo 2 -->
+            <div class="studio-photo-card">
+              <div class="studio-photo-img-wrapper">
+                <img src="assets/studio_interior_2.png" alt="Vastu Home Decor Studio Interior - Wallpaper Wall">
+                <div class="studio-photo-overlay">
+                  <div class="studio-overlay-tag">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Delhi Design Studio</span>
+                  </div>
+                </div>
+              </div>
+              <div class="studio-photo-caption">
+                <h4>Wallpaper Gallery Wall</h4>
+                <p>Thousands of textures, murals, and patterns — all in one place.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- CTA -->
+          <div class="text-center" style="margin-top: 4rem;">
+            <a href="#/contact" class="studio-visit-btn">
+              <i class="fa-solid fa-map-pin" style="margin-right: 0.8rem;"></i>Visit Our Studio
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           BUSTING MYTHS VIDEO SECTION
+           ========================================== -->
+      <section class="busting-myths-section section-padding" id="home-busting-myths">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header text-center" style="margin-bottom: 4rem;">
+            <h2 class="section-title" style="font-size: 3.4rem; font-weight: 700;">Busting Myths</h2>
+          </div>
+
+          <!-- Videos Row with nav arrows -->
+          <div class="myths-carousel-wrapper">
+            <button class="myths-nav-btn myths-prev" id="myths-prev-btn" aria-label="Previous">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="myths-track-viewport">
+              <div class="myths-track" id="myths-track">
+
+                <!-- Video Card 1 -->
+                <div class="myth-video-card">
+                  <div class="myth-video-thumb">
+                    <img src="assets/sanskriti_ethnic.png" alt="Myth 1 - Wallpaper showroom" style="filter: brightness(75%) saturate(80%);">
+                    <button class="myth-play-btn" onclick="alert('Video coming soon!')">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Video Card 2 -->
+                <div class="myth-video-card">
+                  <div class="myth-video-thumb">
+                    <img src="assets/room_mockup.png" alt="Myth 2 - Installation Video" style="filter: brightness(70%) saturate(70%) contrast(110%);">
+                    <button class="myth-play-btn" onclick="alert('Video coming soon!')">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                    <!-- Vastu Home Decor logo badge -->
+                    <div class="myth-brand-badge">
+                      <span class="myth-brand-logo">&#10010; Vastu Home Decor</span>
+                      <span class="myth-brand-sub">India's No. 1 Wallcoverings</span>
+                    </div>
+                  </div>
+                  <p class="myth-caption">Installation Video</p>
+                </div>
+
+                <!-- Video Card 3 -->
+                <div class="myth-video-card">
+                  <div class="myth-video-thumb">
+                    <img src="assets/bohemia_geometric.png" alt="Myth 3 - Wallcoverings collect dust" style="filter: brightness(72%) saturate(90%);">
+                    <button class="myth-play-btn" onclick="alert('Video coming soon!')">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                    <!-- Vastu Home Decor logo badge -->
+                    <div class="myth-brand-badge">
+                      <span class="myth-brand-logo">&#10010; Vastu Home Decor</span>
+                      <span class="myth-brand-sub">India's No. 1 Wallcoverings</span>
+                    </div>
+                  </div>
+                  <p class="myth-caption">Wallcoverings collect dust.</p>
+                </div>
+
+                <!-- Video Card 4 -->
+                <div class="myth-video-card">
+                  <div class="myth-video-thumb">
+                    <img src="assets/florina_botanical.png" alt="Myth 4 - Easy to remove" style="filter: brightness(70%) saturate(80%);">
+                    <button class="myth-play-btn" onclick="alert('Video coming soon!')">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <p class="myth-caption">Wallcoverings are easy to remove.</p>
+                </div>
+
+                <!-- Video Card 5 -->
+                <div class="myth-video-card">
+                  <div class="myth-video-thumb">
+                    <img src="assets/mural_landscape.png" alt="Myth 5 - Fire hazard" style="filter: brightness(68%) saturate(85%);">
+                    <button class="myth-play-btn" onclick="alert('Video coming soon!')">
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                  <p class="myth-caption">Wallcoverings are a fire hazard.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <button class="myths-nav-btn myths-next" id="myths-next-btn" aria-label="Next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           CELEBS HOMES SECTION
+           ========================================== -->
+      <section class="celebs-homes-section" id="home-celebs-homes">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header text-center" style="margin-bottom: 3rem;">
+            <h2 class="celebs-section-title">Celebs homes</h2>
+          </div>
+
+          <!-- 4 Celeb Photo Cards -->
+          <div class="celebs-photos-row">
+
+            <!-- Celeb 1 -->
+            <div class="celeb-card" onclick="alert('Video coming soon!')">
+              <div class="celeb-img-wrapper">
+                <img src="assets/celeb_1.png" alt="Celebrity Home 1" style="filter: brightness(95%);">
+                <div class="celeb-play-overlay"></div>
+              </div>
+            </div>
+
+            <!-- Celeb 2 -->
+            <div class="celeb-card" onclick="alert('Video coming soon!')">
+              <div class="celeb-img-wrapper">
+                <img src="assets/celeb_2.png" alt="Celebrity Home 2" style="filter: brightness(95%);">
+                <div class="celeb-play-overlay"></div>
+              </div>
+            </div>
+
+            <!-- Celeb 3 -->
+            <div class="celeb-card" onclick="alert('Video coming soon!')">
+              <div class="celeb-img-wrapper">
+                <img src="assets/celeb_3.png" alt="Celebrity Home 3" style="filter: brightness(95%);">
+                <div class="celeb-play-overlay"></div>
+              </div>
+            </div>
+
+            <!-- Celeb 4 -->
+            <div class="celeb-card" onclick="alert('Video coming soon!')">
+              <div class="celeb-img-wrapper">
+                <img src="assets/celeb_4.png" alt="Celebrity Home 4" style="filter: brightness(95%);">
+                <div class="celeb-play-overlay"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           BLOG SECTION
+           ========================================== -->
+      <section class="blog-section section-padding" id="home-blog">
+        <div class="container">
+
+          <!-- Section Header -->
+          <div class="section-header text-center" style="margin-bottom: 4.5rem;">
+            <h2 class="section-title" style="font-size: 3.4rem; font-weight: 700;">Blog</h2>
+          </div>
+
+          <!-- 3 Blog Cards -->
+          <div class="blog-cards-row">
+
+            <!-- Blog Card 1 -->
+            <article class="blog-card">
+              <div class="blog-card-img-wrapper">
+                <img src="assets/textures_category.png" alt="How Fabric-Textured Wallcoverings Redefine Premium Interiors" style="filter: brightness(95%) saturate(90%);">
+              </div>
+              <div class="blog-card-body">
+                <span class="blog-card-date">FEBRUARY 21, 2026</span>
+                <h3 class="blog-card-title">
+                  <a href="#" onclick="event.preventDefault()">How Fabric-Textured Wallcoverings Redefine Premium Interiors?</a>
+                </h3>
+                <p class="blog-card-excerpt">Modern interior design is shifting toward materials that offer both visual elegance and tactile richness. Among the most sought-after trends today is luxury wallpaper for home, especially…</p>
+                <a href="#" class="blog-read-more" onclick="event.preventDefault()">READ MORE</a>
+              </div>
+            </article>
+
+            <!-- Blog Card 2 -->
+            <article class="blog-card">
+              <div class="blog-card-img-wrapper">
+                <img src="assets/mural_landscape.png" alt="Why 8-Hour Wallpaper Installation Beats the Painting Hassle" style="filter: brightness(90%) saturate(110%);">
+              </div>
+              <div class="blog-card-body">
+                <span class="blog-card-date">FEBRUARY 21, 2026</span>
+                <h3 class="blog-card-title">
+                  <a href="#" onclick="event.preventDefault()">Why 8-Hour Wallpaper Installation Beats the Painting Hassle?</a>
+                </h3>
+                <p class="blog-card-excerpt">Home makeovers don't always require weeks of disruption, strong paint smells and constant cleaning. Today, wallpaper is revolutionising interior upgrades with fast, clean and efficient installation. Especially…</p>
+                <a href="#" class="blog-read-more" onclick="event.preventDefault()">READ MORE</a>
+              </div>
+            </article>
+
+            <!-- Blog Card 3 -->
+            <article class="blog-card">
+              <div class="blog-card-img-wrapper">
+                <img src="assets/florina_botanical.png" alt="Top Designer Wallpaper Ideas to Elevate Your Indian Home Interiors in 2026" style="filter: brightness(92%) saturate(105%);">
+              </div>
+              <div class="blog-card-body">
+                <span class="blog-card-date">FEBRUARY 19, 2026</span>
+                <h3 class="blog-card-title">
+                  <a href="#" onclick="event.preventDefault()">Top Designer Wallpaper Ideas to Elevate Your Indian Home Interiors in 2026</a>
+                </h3>
+                <p class="blog-card-excerpt">Modern Indians are no longer limited to paint and bare wall finishes. Today, designer wallpaper India collections are transforming homes with artistic expression, texture and personality. Wallpapers…</p>
+                <a href="#" class="blog-read-more" onclick="event.preventDefault()">READ MORE</a>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- Explore More Blogs CTA -->
+          <div class="text-center" style="margin-top: 5rem;">
+            <a href="#" class="blog-explore-btn" onclick="event.preventDefault()">Explore More Blogs</a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==========================================
+           TRY-ON WALLPAPER VISUALIZER SECTION
+           ========================================== -->
+      <section class="tryon-section" id="home-tryon-visualizer">
+        <div class="tryon-inner">
+
+          <!-- Subtitle -->
+          <p class="tryon-subtitle">Try out your favourite wallcovering on a setup</p>
+
+          <!-- Main Two-Column Layout -->
+          <div class="tryon-layout">
+
+            <!-- LEFT: Room Canvas with prev/next room arrows -->
+            <div class="tryon-room-wrapper">
+              <button class="tryon-room-nav tryon-room-prev" id="tryon-room-prev" aria-label="Previous room">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <div class="tryon-canvas-box">
+                <canvas id="tryon-canvas" class="tryon-canvas"></canvas>
+              </div>
+              <button class="tryon-room-nav tryon-room-next" id="tryon-room-next" aria-label="Next room">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <!-- RIGHT: 3×3 Circular Swatch Grid + VIEW MORE -->
+            <div class="tryon-swatches-panel">
+              <div class="tryon-swatches-nav-row">
+                <button class="tryon-swatch-nav tryon-swatch-prev" id="tryon-swatch-prev" aria-label="Previous swatches">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div class="tryon-swatch-grid" id="tryon-swatch-grid">
+                  <!-- 9 circular swatches injected by JS -->
+                </div>
+                <button class="tryon-swatch-nav tryon-swatch-next" id="tryon-swatch-next" aria-label="Next swatches">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+
+              <div style="text-align: center; margin-top: 3rem;">
+                <a href="#/collections" class="tryon-view-more-btn">VIEW MORE</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================
+           ELITE LIVING BY VASTU HOME DECOR SECTION
+           ========================================== -->
+      <section class="eliteliving-section" id="home-eliteliving">
+        <div class="container eliteliving-container">
+          <div class="eliteliving-row">
+            
+            <!-- Left: Beautiful Framed Room Image -->
+            <div class="eliteliving-image-col">
+              <div class="eliteliving-img-card">
+                <img src="assets/elite_living_room.png" alt="Elite Living Furnishings Setup">
+              </div>
+            </div>
+            
+            <!-- Right: Brand Identity & Info -->
+            <div class="eliteliving-content-col">
+              <!-- Logos and Decorative Stars -->
+              <div class="eliteliving-brand-header">
+                <div class="eliteliving-logo-group">
+                  <div class="eliteliving-title">
+                    <span>Eliteliving</span>
+                    <span class="eliteliving-subtitle">— FABRICS FOR HOME —</span>
+                  </div>
+                  <span class="eliteliving-by">by</span>
+                  <div class="eliteliving-vastu-home-decor-logo">
+                    Vastu Home Decor
+                  </div>
+                </div>
+                <!-- Cute Hand-drawn Style Star Decorators -->
+                <div class="eliteliving-stars">
+                  <span class="eliteliving-star star-pink-outline"><i class="fa-regular fa-star"></i></span>
+                  <span class="eliteliving-star star-white-solid"><i class="fa-solid fa-star"></i></span>
+                  <span class="eliteliving-star star-pink-solid"><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+
+              <!-- Description -->
+              <p class="eliteliving-description">
+                Elite Living provides mesmerizing home furnishings and sophisticated furniture, easily becoming the ideal interior design destination for customers with a traditional class yet modern sensibility. We offer customized décor solutions from interior experts to design your home that best reflects your vision for your home. The home furnishings and furniture offered by Elite Living are manufactured using the finest of materials and meeting international standards of aesthetics, fashion and durability.
+              </p>
+
+              <!-- CTA Button -->
+              <div class="eliteliving-action">
+                <a href="#/collections" class="eliteliving-btn">Explore More</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================
+         PAGE VIEW: COLLECTIONS (CATALOG)
+         ========================================== -->
+    <div id="view-collections" class="page-view" style="display:none;">
+      <!-- Title Banner -->
+      <div class="collections-banner" style="background-color: #F7F6F0; padding: 4.5rem 0; text-align: center; border-bottom: 1px solid rgba(230, 229, 224, 0.5);">
+        <h1 style="font-family: var(--font-body); font-size: 3.2rem; font-weight: 700; color: #1a1a1a; margin: 0; letter-spacing: 0.02em;">Wallcoverings</h1>
+      </div>
+
+      <section class="section-padding" style="padding-top: 3rem;">
+        <div class="container">
+          <!-- Breadcrumb -->
+          <div class="collections-breadcrumb" style="font-size: 1.35rem; color: #666; margin-bottom: 3rem; font-family: var(--font-body);">
+            <a href="#/home" style="color: #666; text-decoration: none;">Home</a> / <span style="color: #1a1a1a; font-weight: 700;">Wallcoverings</span>
+          </div>
+
+          <div class="catalog-layout">
+            <!-- Sidebar Filters -->
+            <aside class="catalog-sidebar">
+              <h2 style="font-family: var(--font-body); font-size: 1.8rem; font-weight: 700; color: #1a1a1a; margin-bottom: 2.5rem; letter-spacing: 0.02em;">Filters</h2>
+              
+              <!-- Filter Group: Shop By Category -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('category')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Shop By Category</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <ul class="filter-options" id="filter-group-category" style="list-style: none; padding: 1.5rem 0 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 1.2rem;">
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="pattern" value="Bricks & Stones" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Bricks & Stones (22)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="pattern" value="City & Landscape" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> City & Landscape (6)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="pattern" value="Contemporary" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Contemporary (151)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="pattern" value="Damask" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Damask (66)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="pattern" value="Florals" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Florals (377)
+                    </label>
+                  </li>
+                </ul>
+                <a href="#" class="show-more-link" onclick="event.preventDefault();" style="display: inline-block; font-size: 1.25rem; color: #555; text-decoration: none; font-weight: 600; margin-top: 1rem;">+ Show more &rarr;</a>
+              </div>
+
+              <!-- Filter Group: Shop By Collection -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('collection')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Shop By Collection</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <ul class="filter-options" id="filter-group-collection" style="list-style: none; padding: 1.5rem 0 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 1.2rem;">
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="collection" value="Attitude" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Attitude (36)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="collection" value="Autograph" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Autograph (55)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="collection" value="Botanica" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Botanica (51)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="collection" value="Carrara" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Carrara (37)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="collection" value="Chelsea" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Chelsea (50)
+                    </label>
+                  </li>
+                </ul>
+                <a href="#" class="show-more-link" onclick="event.preventDefault();" style="display: inline-block; font-size: 1.25rem; color: #555; text-decoration: none; font-weight: 600; margin-top: 1rem;">+ Show more &rarr;</a>
+              </div>
+
+              <!-- Filter Group: Color -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('color')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Color</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <ul class="filter-options" id="filter-group-color" style="list-style: none; padding: 1.5rem 0 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 1.2rem;">
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #E6D8C5; border: 1px solid #ccc; display: inline-block;"></span>
+                      <input type="checkbox" name="color" value="Beige" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Beige (360)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #000000; display: inline-block;"></span>
+                      <input type="checkbox" name="color" value="Black" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Black (114)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #4A90E2; display: inline-block;"></span>
+                      <input type="checkbox" name="color" value="Blue" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Blue (261)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #8B572A; display: inline-block;"></span>
+                      <input type="checkbox" name="color" value="Brown" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Brown (241)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #D4AF37; display: inline-block;"></span>
+                      <input type="checkbox" name="color" value="Gold" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Gold (97)
+                    </label>
+                  </li>
+                </ul>
+                <a href="#" class="show-more-link" onclick="event.preventDefault();" style="display: inline-block; font-size: 1.25rem; color: #555; text-decoration: none; font-weight: 600; margin-top: 1rem;">+ Show more &rarr;</a>
+              </div>
+
+              <!-- Filter Group: Price -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('price')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Price</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <div id="filter-group-price" style="padding: 1.5rem 0 0.5rem; display: flex; flex-direction: column; gap: 1.5rem; font-family: var(--font-body);">
+                  <span style="font-size: 1.3rem; color: #555; font-weight: 600;">The highest price is ₹22,500</span>
+                  <input type="range" min="500" max="25000" value="22500" style="width: 100%; accent-color: #D36C2F;">
+                  <div style="display: flex; gap: 1rem; align-items: center;">
+                    <div style="position: relative; flex: 1;">
+                      <span style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); font-size: 1.25rem; color: #555;">₹</span>
+                      <input type="text" placeholder="From" style="width: 100%; padding: 0.6rem 0.6rem 0.6rem 2.2rem; border: 1px solid #DCD9D2; border-radius: 4px; font-size: 1.25rem; font-family: var(--font-body);">
+                    </div>
+                    <div style="position: relative; flex: 1;">
+                      <span style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); font-size: 1.25rem; color: #555;">₹</span>
+                      <input type="text" placeholder="To" style="width: 100%; padding: 0.6rem 0.6rem 0.6rem 2.2rem; border: 1px solid #DCD9D2; border-radius: 4px; font-size: 1.25rem; font-family: var(--font-body);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Filter Group: Collection Type -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('collection-type')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Collection Type</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <ul class="filter-options" id="filter-group-collection-type" style="list-style: none; padding: 1.5rem 0 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 1.2rem;">
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="type" value="Imported Collection" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Imported Collection (632)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="type" value="MDS Collection" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> MDS Collection (1208)
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+            
+            <!-- Catalog Main Panel -->
+            <div class="catalog-main">
+              <div class="catalog-toolbar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 3rem; font-family: var(--font-body); padding-bottom: 1.5rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                <div style="display: flex; align-items: center; gap: 1.5rem;">
+                  <!-- Grid Layout Toggles -->
+                  <div class="grid-layout-toggles" style="display: flex; gap: 0.8rem;">
+                    <button class="grid-toggle-btn active" data-grid="4" style="background-color: #D36C2F; color: #FFFFFF; border: none; padding: 0.6rem 1.2rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.3rem;">|||</button>
+                    <button class="grid-toggle-btn" data-grid="3" style="background-color: #F0EDE8; color: #555555; border: 1px solid #DCD9D2; padding: 0.6rem 1.2rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.3rem;">||</button>
+                    <button class="grid-toggle-btn" data-grid="2" style="background-color: #F0EDE8; color: #555555; border: 1px solid #DCD9D2; padding: 0.6rem 1.2rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.3rem;">|</button>
+                    <button class="grid-toggle-btn" data-grid="list" style="background-color: #F0EDE8; color: #555555; border: 1px solid #DCD9D2; padding: 0.6rem 1.2rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.3rem;">≡</button>
+                  </div>
+                  <!-- Product Count -->
+                  <span style="font-size: 1.4rem; color: #1a1a1a; font-weight: 600;" id="catalog-product-count">1840 products</span>
+                </div>
+                
+                <!-- Sort options -->
+                <div class="sort-wrapper" style="position: relative;">
+                  <select id="sort-dropdown" style="padding: 0.8rem 3rem 0.8rem 1.5rem; border: 1px solid #DCD9D2; border-radius: 4px; background: #FFFFFF; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; appearance: none; -webkit-appearance: none; font-family: var(--font-body); font-weight: 600;">
+                    <option value="date-new">Date, new to old</option>
+                    <option value="name-asc">Alphabetical (A-Z)</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                  </select>
+                  <i class="fa-solid fa-chevron-down" style="position: absolute; right: 1.2rem; top: 50%; transform: translateY(-50%); font-size: 1.1rem; color: #555; pointer-events: none;"></i>
+                </div>
+              </div>
+              
+              <!-- Product Card Grid -->
+              <div class="product-grid">
+                <!-- JS will inject product cards dynamically -->
+              </div>
+
+              <!-- Load More button -->
+              <div style="text-align: center; margin-top: 5rem;">
+                <button class="tryon-view-more-btn" style="background-color: #D36C2F; color: #FFFFFF; border: none; padding: 1.4rem 5rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.4rem;">Load More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================
+         PAGE VIEW: DESIGN STUDIO (MDS)
+         ========================================== -->
+    <div id="view-mds" class="page-view" style="display:none;">
+      <!-- Title Banner -->
+      <div class="collections-banner" style="background-color: #F7F6F0; padding: 4.5rem 0; text-align: center; border-bottom: 1px solid rgba(230, 229, 224, 0.5);">
+        <h1 style="font-family: var(--font-body); font-size: 3.2rem; font-weight: 700; color: #1a1a1a; margin: 0; letter-spacing: 0.02em;">Murals</h1>
+      </div>
+
+      <section class="section-padding" style="padding-top: 3rem;">
+        <div class="container">
+          <!-- Breadcrumb -->
+          <div class="collections-breadcrumb" style="font-size: 1.35rem; color: #666; margin-bottom: 3rem; font-family: var(--font-body);">
+            <a href="#/home" style="color: #666; text-decoration: none;">Home</a> / <span style="color: #1a1a1a; font-weight: 700;">Murals</span>
+          </div>
+
+          <div class="catalog-layout">
+            <!-- Sidebar Filters -->
+            <aside class="catalog-sidebar">
+              <h2 style="font-family: var(--font-body); font-size: 1.8rem; font-weight: 700; color: #1a1a1a; margin-bottom: 2.5rem; letter-spacing: 0.02em;">Filters</h2>
+              
+              <!-- Filter Group: Shop By Category -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('mural-category')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Shop By Category</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <ul class="filter-options" id="filter-group-mural-category" style="list-style: none; padding: 1.5rem 0 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 1.2rem;">
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-pattern" value="3D" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> 3D (2)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-pattern" value="Bricks & Stones" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Bricks & Stones (3)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-pattern" value="City & Landscape" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> City & Landscape (24)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-pattern" value="Contemporary" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Contemporary (104)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-pattern" value="Corporate" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Corporate (34)
+                    </label>
+                  </li>
+                </ul>
+                <a href="#" class="show-more-link" onclick="event.preventDefault();" style="display: inline-block; font-size: 1.25rem; color: #555; text-decoration: none; font-weight: 600; margin-top: 1rem;">+ Show more &rarr;</a>
+              </div>
+
+              <!-- Filter Group: Shop By Collection -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('mural-collection')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Shop By Collection</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <ul class="filter-options" id="filter-group-mural-collection" style="list-style: none; padding: 1.5rem 0 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 1.2rem;">
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-collection" value="AUTOGRAPH MURAL" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> AUTOGRAPH MURAL (8)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-collection" value="Fun Zone" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Fun Zone (39)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-collection" value="Krsnaa Mehta" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Krsnaa Mehta (114)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-collection" value="Landscape" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Landscape (42)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-collection" value="Paradise" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Paradise (40)
+                    </label>
+                  </li>
+                </ul>
+                <a href="#" class="show-more-link" onclick="event.preventDefault();" style="display: inline-block; font-size: 1.25rem; color: #555; text-decoration: none; font-weight: 600; margin-top: 1rem;">+ Show more &rarr;</a>
+              </div>
+
+              <!-- Filter Group: Color -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('mural-color')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Color</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <ul class="filter-options" id="filter-group-mural-color" style="list-style: none; padding: 1.5rem 0 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 1.2rem;">
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #E6D8C5; border: 1px solid #ccc; display: inline-block;"></span>
+                      <input type="checkbox" name="mural-color" value="Beige" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Beige (51)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #000000; display: inline-block;"></span>
+                      <input type="checkbox" name="mural-color" value="Black" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Black (53)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #4A90E2; display: inline-block;"></span>
+                      <input type="checkbox" name="mural-color" value="Blue" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Blue (229)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #8B572A; display: inline-block;"></span>
+                      <input type="checkbox" name="mural-color" value="Brown" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Brown (175)
+                    </label>
+                  </li>
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <span style="width: 12px; height: 12px; border-radius: 50%; background-color: #D4AF37; display: inline-block;"></span>
+                      <input type="checkbox" name="mural-color" value="Gold" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> Gold (51)
+                    </label>
+                  </li>
+                </ul>
+                <a href="#" class="show-more-link" onclick="event.preventDefault();" style="display: inline-block; font-size: 1.25rem; color: #555; text-decoration: none; font-weight: 600; margin-top: 1rem;">+ Show more &rarr;</a>
+              </div>
+
+              <!-- Filter Group: Price -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('mural-price')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Price</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <div id="filter-group-mural-price" style="padding: 1.5rem 0 0.5rem; display: flex; flex-direction: column; gap: 1.5rem;">
+                  <span style="font-size: 1.3rem; color: #555;">The highest price is ₹5,810</span>
+                  <input type="range" min="500" max="6000" value="5810" style="width: 100%; accent-color: #D36C2F;">
+                  <div style="display: flex; gap: 1rem; align-items: center;">
+                    <input type="text" placeholder="From" style="width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1.25rem;">
+                    <input type="text" placeholder="To" style="width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1.25rem;">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Filter Group: Collection Type -->
+              <div class="filter-group-wrapper" style="margin-bottom: 3.5rem;">
+                <div class="filter-group-header" onclick="App.toggleFilterGroup('mural-type')" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                  <span style="font-size: 1.45rem; font-weight: 700; color: #1a1a1a;">Collection Type</span>
+                  <i class="fa-solid fa-chevron-up" style="font-size: 1.1rem; color: #555;"></i>
+                </div>
+                <ul class="filter-options" id="filter-group-mural-type" style="list-style: none; padding: 1.5rem 0 0.5rem; margin: 0; display: flex; flex-direction: column; gap: 1.2rem;">
+                  <li>
+                    <label class="filter-checkbox-label" style="display: flex; align-items: center; gap: 1rem; font-size: 1.35rem; color: #333; cursor: pointer;">
+                      <input type="checkbox" name="mural-type" value="MDS Collection" style="width: 16px; height: 16px; accent-color: #bd1a2b;"> MDS Collection (654)
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+            
+            <!-- Catalog Main Panel -->
+            <div class="catalog-main">
+              <div class="catalog-toolbar" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 3rem; font-family: var(--font-body); padding-bottom: 1.5rem; border-bottom: 1px solid rgba(0,0,0,0.06);">
+                <div style="display: flex; align-items: center; gap: 1.5rem;">
+                  <!-- Grid Layout Toggles -->
+                  <div class="grid-layout-toggles" style="display: flex; gap: 0.8rem;">
+                    <button class="grid-toggle-btn active" data-grid="4" style="background-color: #D36C2F; color: #FFFFFF; border: none; padding: 0.6rem 1.2rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.3rem;">|||</button>
+                    <button class="grid-toggle-btn" data-grid="3" style="background-color: #F0EDE8; color: #555555; border: 1px solid #DCD9D2; padding: 0.6rem 1.2rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.3rem;">||</button>
+                    <button class="grid-toggle-btn" data-grid="2" style="background-color: #F0EDE8; color: #555555; border: 1px solid #DCD9D2; padding: 0.6rem 1.2rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.3rem;">|</button>
+                    <button class="grid-toggle-btn" data-grid="list" style="background-color: #F0EDE8; color: #555555; border: 1px solid #DCD9D2; padding: 0.6rem 1.2rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.3rem;">≡</button>
+                  </div>
+                  <!-- Product Count -->
+                  <span style="font-size: 1.4rem; color: #1a1a1a; font-weight: 600;" id="mural-product-count">654 products</span>
+                </div>
+                
+                <!-- Sort options -->
+                <div class="sort-wrapper" style="position: relative;">
+                  <select id="mural-sort-dropdown" style="padding: 0.8rem 3rem 0.8rem 1.5rem; border: 1px solid #DCD9D2; border-radius: 4px; background: #FFFFFF; font-size: 1.35rem; color: #1a1a1a; cursor: pointer; appearance: none; -webkit-appearance: none; font-family: var(--font-body); font-weight: 600;">
+                    <option value="date-new">Date, new to old</option>
+                    <option value="name-asc">Alphabetical (A-Z)</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                  </select>
+                  <i class="fa-solid fa-chevron-down" style="position: absolute; right: 1.2rem; top: 50%; transform: translateY(-50%); font-size: 1.1rem; color: #555; pointer-events: none;"></i>
+                </div>
+              </div>
+              
+              <!-- Product Card Grid -->
+              <div class="product-grid" id="mural-grid">
+                <!-- JS will inject mural cards dynamically -->
+              </div>
+
+              <!-- Load More button -->
+              <div style="text-align: center; margin-top: 5rem;">
+                <button class="mural-load-more-btn">Load More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================
+         PAGE VIEW: WHY WALLCOVERINGS
+         ========================================== -->
+    <div id="view-why-wallcoverings" class="page-view" style="display:none;">
+      <!-- Interactive Comparison Section (Same base components loaded) -->
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Education Guide</span>
+            <h1 class="section-title">Why Choose Wallcoverings?</h1>
+            <p style="font-size:1.6rem; color:var(--color-text-secondary);">An in-depth look at how luxury wallpaper compares with traditional paints.</p>
+          </div>
+          
+          <div class="compare-container" style="margin-bottom:8rem;">
+            <!-- Draggable Slider -->
+            <div class="compare-slider-wrapper">
+              <div class="compare-layer compare-before" style="background-image: url('assets/room_mockup.png')">
+                <div style="position:absolute; top:80px; left:535px; width:405px; height:415px; background-color:#8e9297; opacity:0.85;"></div>
+                <div class="compare-label label-before">Plain Paint</div>
+              </div>
+              <div class="compare-layer compare-after">
+                <div class="compare-after-inner" style="background-image: url('assets/room_mockup.png')">
+                  <div style="position:absolute; top:80px; left:535px; width:405px; height:415px; background-image: url('assets/sanskriti_ethnic.png'); background-size:200px; opacity:0.95;"></div>
+                </div>
+                <div class="compare-label label-after">Vastu Home Decor Wallpaper</div>
+              </div>
+              <div class="compare-handle"></div>
+            </div>
+            
+            <div class="compare-info">
+              <h2 style="font-size:3rem; margin-bottom:2rem;">Make Your Walls Come Alive</h2>
+              <p style="color:var(--color-text-secondary); margin-bottom:2rem;">Many clients hesitate to select wallpapers due to lack of information. However, professional wallcoverings outperform standard paints in aesthetic, life-cycle, maintenance, and long-term costs.</p>
+              <p style="color:var(--color-text-secondary); margin-bottom:3rem;">Vastu Home Decor India wallpapers are fire-resistant, water-washable, cleanable, and installed by trained technicians within hours. No dust, no bad odors, and no long waiting periods.</p>
+              
+              <button class="cta-btn" onclick="App.openEnquiryModal('Consultation Request')">Book Home Consultation</button>
+            </div>
+          </div>
+
+          <!-- Comparison Table -->
+          <div style="margin-bottom:8rem;">
+            <h2 style="font-size:2.8rem; text-align:center; margin-bottom:4rem;">Comparison Chart</h2>
+            <div style="overflow-x:auto; border-radius:var(--border-radius); border:1px solid var(--border-color);">
+              <table style="width:100%; border-collapse:collapse; background-color:var(--color-bg-secondary); font-size:1.5rem; text-align:left;">
+                <thead>
+                  <tr style="background-color:var(--color-bg-dark); color:var(--color-text-light);">
+                    <th style="padding:2rem;">Feature</th>
+                    <th style="padding:2rem;">Standard Emulsion Paint</th>
+                    <th style="padding:2rem; color:var(--color-accent-gold);">Vastu Home Decor Wallcoverings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="border-bottom:1px solid var(--border-color);">
+                    <td style="padding:2rem; font-weight:600;">Lifespan</td>
+                    <td style="padding:2rem; color:var(--color-text-secondary);">2 - 3 Years (Chips and fades)</td>
+                    <td style="padding:2rem; font-weight:600; color:var(--color-accent-gold-dark);">15+ Years (Retains vibrancy)</td>
+                  </tr>
+                  <tr style="border-bottom:1px solid var(--border-color);">
+                    <td style="padding:2rem; font-weight:600;">Installation Time</td>
+                    <td style="padding:2rem; color:var(--color-text-secondary);">4 - 7 Days (Multiple coats, drying)</td>
+                    <td style="padding:2rem; font-weight:600; color:var(--color-accent-gold-dark);">1 Day (Completed quickly)</td>
+                  </tr>
+                  <tr style="border-bottom:1px solid var(--border-color);">
+                    <td style="padding:2rem; font-weight:600;">Odor & Toxicity</td>
+                    <td style="padding:2rem; color:var(--color-text-secondary);">Strong paint chemical smell, VOCs</td>
+                    <td style="padding:2rem; font-weight:600; color:var(--color-accent-gold-dark);">Odorless, Non-toxic water-based inks</td>
+                  </tr>
+                  <tr style="border-bottom:1px solid var(--border-color);">
+                    <td style="padding:2rem; font-weight:600;">Maintenance</td>
+                    <td style="padding:2rem; color:var(--color-text-secondary);">Hard to clean stains, chips on contact</td>
+                    <td style="padding:2rem; font-weight:600; color:var(--color-accent-gold-dark);">Washable (Wipeable with wet cloth)</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:2rem; font-weight:600;">Visual Variety</td>
+                    <td style="padding:2rem; color:var(--color-text-secondary);">Plain, flat solid colors</td>
+                    <td style="padding:2rem; font-weight:600; color:var(--color-accent-gold-dark);">Rich 3D textures, metallic gold line arts</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Myth Accordion Section -->
+          <div>
+            <h2 style="font-size:2.8rem; text-align:center; margin-bottom:4rem;">Myth Busters</h2>
+            <div class="compare-accordion" style="max-width:80rem; margin:0 auto;">
+              <div class="accordion-item active">
+                <div class="accordion-header">
+                  <h3 class="accordion-title">Myth: Wallpapers peel off and require constant repairs</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <strong>Fact:</strong> Low-quality adhesives used by untrained laborers can peel. Vastu Home Decor India uses premium, eco-friendly European adhesives and offers professional installation guarantees. Properly installed wallpaper stays intact for 15+ years.
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <h3 class="accordion-title">Myth: Wallpapers are extremely expensive compared to paint</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <strong>Fact:</strong> While the initial cost of wallpaper is slightly higher, it lasts 5x longer. You would repaint a room 4-5 times over a 15-year period, making paint 3 times more expensive in the long run.
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <h3 class="accordion-title">Myth: Wallpapers capture moisture and attract mold</h3>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <strong>Fact:</strong> Our wallpapers are made with breathable, non-woven backing materials that allow moisture to escape, preventing mold growth. If mold does exist under wall surfaces, we pre-treat walls before installation.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================
+         PAGE VIEW: GALLERY
+         ========================================== -->
+    <div id="view-gallery" class="page-view" style="display:none;">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Visual Showcase</span>
+            <h1 class="section-title">Our Project Gallery</h1>
+            <p style="font-size:1.6rem; color:var(--color-text-secondary);">Browse actual projects completed by Vastu Home Decor across luxury residences and offices.</p>
+          </div>
+          
+          <div class="collections-grid">
+            <div class="collection-card">
+              <div class="card-img-wrapper" style="height:30rem;">
+                <img src="assets/sanskriti_ethnic.png" alt="Living room setting" class="card-img">
+              </div>
+              <div class="card-content" style="text-align:left; padding:2rem;">
+                <h3 style="font-size:1.8rem; font-weight:600; margin-bottom:0.5rem;">Luxury Living Room Accent</h3>
+                <p style="font-size:1.3rem; color:var(--color-text-secondary);">Worli Penthouse, Mumbai. Sanskriti Mandala Collection.</p>
+              </div>
+            </div>
+            
+            <div class="collection-card">
+              <div class="card-img-wrapper" style="height:30rem;">
+                <img src="assets/florina_botanical.png" alt="Bedroom setting" class="card-img">
+              </div>
+              <div class="card-content" style="text-align:left; padding:2rem;">
+                <h3 style="font-size:1.8rem; font-weight:600; margin-bottom:0.5rem;">Serene Master Bedroom</h3>
+                <p style="font-size:1.3rem; color:var(--color-text-secondary);">Kirti Nagar Residence, Delhi. Florina Botanical range.</p>
+              </div>
+            </div>
+            
+            <div class="collection-card">
+              <div class="card-img-wrapper" style="height:30rem;">
+                <img src="assets/bohemia_geometric.png" alt="Office lobby" class="card-img">
+              </div>
+              <div class="card-content" style="text-align:left; padding:2rem;">
+                <h3 style="font-size:1.8rem; font-weight:600; margin-bottom:0.5rem;">Corporate Lounge Area</h3>
+                <p style="font-size:1.3rem; color:var(--color-text-secondary);">Tech Park Office, Bengaluru. Bohemia Geometric print.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================
+         PAGE VIEW: PARTNERS / PORTAL
+         ========================================== -->
+    <div id="view-partners" class="page-view" style="display:none;">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Collaborations</span>
+            <h1 class="section-title">Partner With Vastu Home Decor</h1>
+            <p style="font-size:1.6rem; color:var(--color-text-secondary);">Dedicated channels for interior designers, architects, and franchise dealers.</p>
+          </div>
+          
+          <div class="contact-grid">
+            <div class="contact-form-wrapper">
+              <h2>Architect & Designer Enquiry</h2>
+              <form id="partner-enquiry-form">
+                <div class="form-group" style="margin-bottom:2rem;">
+                  <label for="partner-name">Full Name</label>
+                  <input type="text" id="partner-name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group" style="margin-bottom:2rem;">
+                  <label for="partner-firm">Firm / Agency Name</label>
+                  <input type="text" id="partner-firm" placeholder="Your firm name">
+                </div>
+                <div class="form-group" style="margin-bottom:2rem;">
+                  <label for="partner-phone">Phone Number</label>
+                  <input type="tel" id="partner-phone" placeholder="Enter phone number" required>
+                </div>
+                <div class="form-group" style="margin-bottom:3rem;">
+                  <label for="partner-interest">Interested In</label>
+                  <select id="partner-interest">
+                    <option value="architect-program">Architect Discount & Sample Program</option>
+                    <option value="franchise">Opening a Franchise Studio</option>
+                    <option value="corporate-tieup">Corporate Project Partnership</option>
+                  </select>
+                </div>
+                <button type="submit" class="cta-btn" style="width:100%;">Submit Partner Registration</button>
+              </form>
+            </div>
+            
+            <div style="display:flex; flex-direction:column; justify-content:center;">
+              <span class="section-subtitle">Franchise Program</span>
+              <h2 style="font-size:3rem; margin-bottom:2rem;">Expand India’s No. 1 Wallcoverings Brand</h2>
+              <p style="color:var(--color-text-secondary); margin-bottom:2rem;">Vastu Home Decor India has over 40 years of market presence and operates 40+ franchise studios and 500+ dealer networks across India. By joining our network, you get access to:</p>
+              <ul style="list-style:none; display:flex; flex-direction:column; gap:1.5rem; font-size:1.5rem; color:var(--color-text-secondary);">
+                <li><i class="fa-solid fa-circle-check" style="color:var(--color-accent-gold); margin-right:1rem;"></i> Exquisite international collections imported exclusively by Vastu Home Decor.</li>
+                <li><i class="fa-solid fa-circle-check" style="color:var(--color-accent-gold); margin-right:1rem;"></i> Advanced digital printing support from Vastu Home Decor Design Studio (MDS).</li>
+                <li><i class="fa-solid fa-circle-check" style="color:var(--color-accent-gold); margin-right:1rem;"></i> Trained wallpaper application technician network in your territory.</li>
+                <li><i class="fa-solid fa-circle-check" style="color:var(--color-accent-gold); margin-right:1rem;"></i> Centralized marketing support, leads, and showroom visualizers.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================
+         PAGE VIEW: CONTACT
+         ========================================== -->
+    <div id="view-contact" class="page-view" style="display:none;">
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-header" style="margin-bottom:8rem;">
+            <span class="section-subtitle">Get In Touch</span>
+            <h1 class="section-title">Reach Our Experience Centers</h1>
+            <p style="font-size:1.6rem; color:var(--color-text-secondary);">Locate an experience studio near you or contact our support lines.</p>
+          </div>
+          
+          <div class="contact-grid">
+            <!-- Left Side: Store Finder -->
+            <div>
+              <span class="section-subtitle">Store Locator</span>
+              <h2 style="font-size:2.8rem; margin-bottom:2rem;">Find an Experience Center</h2>
+              
+              <div class="search-wrapper" style="max-width:100%; margin-bottom:3rem;">
+                <span class="search-icon-svg"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" class="search-input" placeholder="Type city (e.g. Mumbai, Delhi, Pune)..." id="store-search">
+              </div>
+              
+              <!-- Store List container -->
+              <div class="stores-list">
+                <!-- JS will inject store locator cards -->
+              </div>
+            </div>
+            
+            <!-- Right Side: Contact info & form -->
+            <div class="contact-form-wrapper">
+              <h2>Drop Us A Line</h2>
+              <form id="contact-page-form">
+                <div class="form-group" style="margin-bottom:2rem;">
+                  <label for="contact-name">Your Name</label>
+                  <input type="text" id="contact-name" placeholder="Enter full name" required>
+                </div>
+                <div class="form-group" style="margin-bottom:2rem;">
+                  <label for="contact-email">Email Address</label>
+                  <input type="email" id="contact-email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group" style="margin-bottom:2rem;">
+                  <label for="contact-msg">Message / Requirements</label>
+                  <textarea id="contact-msg" rows="4" placeholder="How can we help you?" style="padding:1.2rem; border:1px solid var(--border-color); border-radius:var(--border-radius); outline:none; background-color:var(--color-bg-primary); transition:var(--transition-smooth);" required></textarea>
+                </div>
+                <button type="submit" class="cta-btn" style="width:100%;">Send Message</button>
+              </form>
+              
+              <div class="contact-info-wrapper" style="margin-top:4rem; border-top:1px solid var(--border-color); padding-top:3rem;">
+                <div class="contact-info-item">
+                  <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                  <div class="info-text">
+                    <h3>Customer Support</h3>
+                    <p>+91 22 4070 0055 (Mon-Sat, 10 AM - 7 PM)</p>
+                  </div>
+                </div>
+                
+                <div class="contact-info-item">
+                  <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="info-text">
+                    <h3>Email Support</h3>
+                    <p>info@vastuhomedecor.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ==========================================
+         PAGE VIEW: LOGIN
+         ========================================== -->
+    <div id="view-login" class="page-view" style="display:none;">
+      <section class="section-padding" style="padding: 10rem 0; min-height: 70vh; display: flex; align-items: center; justify-content: center; background-color: #FFFFFF;">
+        <div style="width: 100%; max-width: 400px; margin: 0 auto; text-align: center; font-family: var(--font-body);">
+          <h1 style="font-size: 3.6rem; font-weight: 700; color: #1a1a1a; margin-bottom: 4rem;">Login</h1>
+          
+          <form onsubmit="event.preventDefault();" style="display: flex; flex-direction: column; gap: 2rem;">
+            <input type="email" placeholder="Email Address" required style="width: 100%; padding: 1.4rem 2rem; border: 1px solid #DCD9D2; border-radius: 4px; font-size: 1.4rem;">
+            <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 1rem; width: 100%;">
+              <input type="password" placeholder="Password" required style="width: 100%; padding: 1.4rem 2rem; border: 1px solid #DCD9D2; border-radius: 4px; font-size: 1.4rem;">
+              <a href="#" onclick="event.preventDefault();" style="font-size: 1.3rem; color: #1a1a1a; text-decoration: none; font-weight: 600;">Forgot your password?</a>
+            </div>
+            
+            <button type="submit" style="background-color: #D36C2F; color: #FFFFFF; border: none; padding: 1.4rem; border-radius: 4px; font-size: 1.4rem; font-weight: 700; cursor: pointer; margin-top: 2rem; text-transform: uppercase; letter-spacing: 0.05em; transition: background-color 0.2s ease;" onmouseover="this.style.backgroundColor='#bd1a2b'" onmouseout="this.style.backgroundColor='#D36C2F'">Sign In</button>
+          </form>
+          
+          <a href="#/create-account" style="display: inline-block; margin-top: 2.5rem; font-size: 1.35rem; color: #1a1a1a; text-decoration: none; font-weight: 600;">Create account</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================
+         PAGE VIEW: CREATE ACCOUNT
+         ========================================== -->
+    <div id="view-create-account" class="page-view" style="display:none;">
+      <section class="section-padding" style="padding: 10rem 0; min-height: 70vh; display: flex; align-items: center; justify-content: center; background-color: #FFFFFF;">
+        <div style="width: 100%; max-width: 400px; margin: 0 auto; text-align: center; font-family: var(--font-body);">
+          <h1 style="font-size: 3.6rem; font-weight: 700; color: #1a1a1a; margin-bottom: 4rem; letter-spacing: 0.01em;">Create account</h1>
+          
+          <form onsubmit="event.preventDefault(); App.handleRegisterSubmit();" style="display: flex; flex-direction: column; gap: 2rem;">
+            <input type="text" placeholder="First name" required style="width: 100%; padding: 1.4rem 2rem; border: 1px solid #DCD9D2; border-radius: 4px; font-size: 1.4rem; outline: none; background-color: #FFFFFF; font-family: var(--font-body);" onfocus="this.style.borderColor='#D36C2F'" onblur="this.style.borderColor='#DCD9D2'">
+            <input type="text" placeholder="Last name" required style="width: 100%; padding: 1.4rem 2rem; border: 1px solid #DCD9D2; border-radius: 4px; font-size: 1.4rem; outline: none; background-color: #FFFFFF; font-family: var(--font-body);" onfocus="this.style.borderColor='#D36C2F'" onblur="this.style.borderColor='#DCD9D2'">
+            <input type="email" placeholder="Email Address" required style="width: 100%; padding: 1.4rem 2rem; border: 1px solid #DCD9D2; border-radius: 4px; font-size: 1.4rem; outline: none; background-color: #FFFFFF; font-family: var(--font-body);" onfocus="this.style.borderColor='#D36C2F'" onblur="this.style.borderColor='#DCD9D2'">
+            <input type="password" placeholder="Password" required style="width: 100%; padding: 1.4rem 2rem; border: 1px solid #DCD9D2; border-radius: 4px; font-size: 1.4rem; outline: none; background-color: #FFFFFF; font-family: var(--font-body);" onfocus="this.style.borderColor='#D36C2F'" onblur="this.style.borderColor='#DCD9D2'">
+            
+            <button type="submit" style="background-color: #D36C2F; color: #FFFFFF; border: none; padding: 1.4rem 4.5rem; border-radius: 4px; font-size: 1.4rem; font-weight: 700; cursor: pointer; margin: 2rem auto 0 auto; text-transform: uppercase; letter-spacing: 0.05em; transition: background-color 0.2s ease; width: fit-content; font-family: var(--font-body);" onmouseover="this.style.backgroundColor='#bd1a2b'" onmouseout="this.style.backgroundColor='#D36C2F'">Create</button>
+          </form>
+          
+          <a href="#/login" style="display: inline-block; margin-top: 2.5rem; font-size: 1.35rem; color: #1a1a1a; text-decoration: none; font-weight: 600;">Already have an account? Sign in</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ==========================================
+         PAGE VIEW: WISHLIST
+         ========================================== -->
+    <div id="view-wishlist" class="page-view" style="display:none;">
+      <!-- Title Banner -->
+      <div class="collections-banner" style="background-color: #F7F6F0; padding: 4.5rem 0; text-align: center; border-bottom: 1px solid rgba(230, 229, 224, 0.5);">
+        <h1 style="font-family: var(--font-body); font-size: 3.2rem; font-weight: 700; color: #1a1a1a; margin: 0; letter-spacing: 0.02em;">Wishlist</h1>
+      </div>
+
+      <section class="section-padding" style="padding: 10rem 0; min-height: 50vh; display: flex; align-items: center; justify-content: center; background-color: #FFFFFF;">
+        <div style="text-align: center; font-family: var(--font-body);">
+          <h2 style="font-size: 1.8rem; font-weight: 700; color: #1a1a1a; margin-bottom: 2rem; letter-spacing: 0.01em;">No products were added to your wishlist.</h2>
+          <a href="#/collections" style="font-size: 1.35rem; color: #1a1a1a; text-decoration: none; font-weight: 600; border-bottom: 1px solid #1a1a1a; padding-bottom: 2px;">Continue shopping</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ==========================================
+       GLOBAL FOOTER SECTION
+       ========================================== -->
+  <footer>
+    <div class="container footer-grid">
+      <!-- Column 1: Branding -->
+      <div class="footer-widget branding-widget">
+        <a href="#/home" class="footer-logo">
+          <span class="logo-v">V</span>
+          <div class="logo-text-wrapper">
+            <span class="logo-name-rest">astu_home_decor</span>
+            <span class="logo-tagline-custom">India's No.1 Wallcoverings</span>
+          </div>
+        </a>
+        <h4 class="footer-slogan">Make Your Walls Come Alive</h4>
+        <p class="footer-desc">Step into Vastu Home Decor, where walls aren't just walls - they're the heart of your home's story. Discover stunning designs that bring personality to every corner, turning your space into a true reflection of you and your loved ones.</p>
+        <div class="footer-socials">
+          <a href="https://facebook.com" class="social-icon" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://instagram.com" class="social-icon" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://youtube.com" class="social-icon" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://linkedin.com" class="social-icon" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      
+      <!-- Column 2: Explore List 1 -->
+      <div class="footer-widget">
+        <h3>EXPLORE</h3>
+        <ul class="footer-links">
+          <li><a href="#/why-wallcoverings">Why Wallcoverings</a></li>
+          <li><a href="#/collections">Pain...t v/s Wallcoverings</a></li>
+          <li><a href="#/home">Busting Myths</a></li>
+          <li><a href="#/home">About Us</a></li>
+          <li><a href="#/home">News & Events</a></li>
+          <li><a href="#/mds">MDS Collection</a></li>
+          <li><a href="#/gallery">Gallery</a></li>
+        </ul>
+      </div>
+      
+      <!-- Column 3: Explore List 2 -->
+      <div class="footer-widget">
+        <h3>EXPLORE</h3>
+        <ul class="footer-links">
+          <li><a href="#/partners">Architect/Designer Enquiry</a></li>
+          <li><a href="#/home">Ask the Expert</a></li>
+          <li><a href="#/partners">Partner with us</a></li>
+          <li><a href="#/contact">Reach Us</a></li>
+          <li><a href="#/home">Careers</a></li>
+          <li><a href="#/home">Customer Feedback</a></li>
+          <li><a href="#/home">Blog</a></li>
+        </ul>
+      </div>
+      
+      <!-- Column 4: Policies -->
+      <div class="footer-widget">
+        <h3>POLICIES</h3>
+        <ul class="footer-links">
+          <li><a href="#/home">Privacy Policy</a></li>
+          <li><a href="#/home">Refund Policy</a></li>
+          <li><a href="#/home">Shipping Policy</a></li>
+          <li><a href="#/home">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 5: Contact details -->
+      <div class="footer-widget contact-widget">
+        <h3>Get In Touch</h3>
+        
+        <div class="contact-sub-group">
+          <h4>Customer Support</h4>
+          <a href="mailto:vector.ai09@gmail.com">vector.ai09@gmail.com</a>
+          <a href="tel:9217571488" class="tel-link">92175 71488</a>
+        </div>
+        
+        <div class="contact-sub-group">
+          <h4>Project & Export Inquiry</h4>
+          <a href="mailto:vector.ai09@gmail.com">vector.ai09@gmail.com</a>
+          <a href="tel:9122135215" class="tel-link">91221 35215</a>
+        </div>
+        
+        <div class="contact-sub-group">
+          <h4>Dealer Support</h4>
+          <a href="mailto:vector.ai09@gmail.com">vector.ai09@gmail.com</a>
+          <a href="tel:9217571488" class="tel-link">92175 71488</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <div class="copyright-text">Copyright 2026, Vastu Home Decor India. All Rights Reserved. Developed By <strong style="color: #1a1a1a; font-weight: 700; font-family: var(--font-body);">Vector.AI</strong></div>
+      <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       GLOBAL ENQUIRY MODAL (POPUP FORM)
+       ========================================== -->
+  <div class="modal" id="enquiry-modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h2 style="font-family:var(--font-heading); font-size:2.8rem; margin-bottom:1.5rem;">Consult Decor Expert</h2>
+      <p style="color:var(--color-text-secondary); font-size:1.4rem; margin-bottom:3rem;">Leave your details below. Our wallpaper consultant will bring catalog physical samples to your house and provide a free wall inspection.</p>
+      
+      <form id="modal-enquiry-form">
+        <div class="form-group" style="margin-bottom:2rem;">
+          <label for="enq-name">Your Name</label>
+          <input type="text" id="enq-name" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group" style="margin-bottom:2rem;">
+          <label for="enq-phone">Phone Number</label>
+          <input type="tel" id="enq-phone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="form-group" style="margin-bottom:3rem;">
+          <label for="enq-type">Query / Project Type</label>
+          <select id="enq-type">
+            <option value="General Consultation">General Home Decor Consultation</option>
+            <option value="Mural Customization">Mural Custom Print (MDS)</option>
+            <option value="Architect Program">Architect & Designer Partnership</option>
+          </select>
+        </div>
+        <button type="submit" class="cta-btn" style="width:100%;">Request Free Consult</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Slide-out Cart Drawer Overlay -->
+  <div id="cart-drawer-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); z-index: 2000; justify-content: flex-end; align-items: stretch; opacity: 0; transition: opacity 0.3s ease;">
+    <!-- Close click backdrop area -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;" onclick="App.toggleCartDrawer(false)"></div>
+    
+    <!-- Drawer Panel -->
+    <div id="cart-drawer-panel" style="position: relative; width: 100%; max-width: 440px; background-color: #FFFFFF; box-shadow: -5px 0 30px rgba(0,0,0,0.15); display: flex; flex-direction: column; padding: 4rem 3rem; transform: translateX(100%); transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1); height: 100%; font-family: var(--font-body);">
+      
+      <!-- Close Cross Circle Button -->
+      <button onclick="App.toggleCartDrawer(false)" style="position: absolute; top: 2.5rem; right: 2.5rem; width: 3.5rem; height: 3.5rem; border-radius: 50%; border: 1px solid #ccc; background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.borderColor='#1a1a1a'; this.style.backgroundColor='#f6f5f0';" onmouseout="this.style.borderColor='#ccc'; this.style.backgroundColor='transparent';">
+        <i class="fa-solid fa-xmark" style="font-size: 1.6rem; color: #555;"></i>
+      </button>
+      
+      <!-- Cart Drawer Content Wrapper (populated dynamically by JS) -->
+      <div id="cart-drawer-content" style="flex: 1; display: flex; flex-direction: column; height: 100%; margin-top: 5rem;">
+        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 3.5rem;">
+          <div>
+            <h2 style="font-size: 2.8rem; font-weight: 700; color: #1a1a1a; margin-bottom: 2rem; letter-spacing: 0.01em;">Your cart is empty</h2>
+            <button onclick="App.toggleCartDrawer(false); window.location.hash='#/collections';" style="background-color: #D36C2F; color: #FFFFFF; border: none; padding: 1.4rem 4rem; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.35rem; transition: background-color 0.2s ease;" onmouseover="this.style.backgroundColor='#bd1a2b'" onmouseout="this.style.backgroundColor='#D36C2F'">Continue Shopping</button>
+          </div>
+          
+          <div style="border-top: 1px solid rgba(0,0,0,0.06); padding-top: 3.5rem; width: 100%;">
+            <h3 style="font-size: 1.8rem; font-weight: 700; color: #1a1a1a; margin-bottom: 1rem; letter-spacing: 0.01em;">Have an account?</h3>
+            <p style="font-size: 1.35rem; color: #444;">
+              <a href="#/login" onclick="App.toggleCartDrawer(false);" style="color: #1a1a1a; text-decoration: underline; font-weight: 600;">Log in</a> to check out faster.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Floating AI Assistant Maya Chatbot Widget -->
+  <div class="chatbot-widget" id="vhd-chatbot-widget">
+    <!-- Toggle Launcher Button -->
+    <button class="chatbot-toggle-btn" id="chatbot-toggle-btn" onclick="App.toggleChatbot()" aria-label="Open Chatbot">
+      <img src="assets/chat_avatar.png" alt="Maya AI Avatar" class="chatbot-avatar-img">
+      <span class="chatbot-status-dot"></span>
+    </button>
+
+    <!-- Chatbot Window Panel -->
+    <div class="chatbot-panel" id="chatbot-panel">
+      <!-- Chat Header -->
+      <div class="chatbot-header">
+        <div class="chatbot-header-info">
+          <div class="chatbot-header-avatar">
+            <img src="assets/chat_avatar.png" alt="Maya AI Avatar">
+            <span class="chatbot-header-status"></span>
+          </div>
+          <div>
+            <h3 class="chatbot-header-name">Maya <span class="ai-tag">AI</span></h3>
+            <p class="chatbot-header-status-text">Online</p>
+          </div>
+        </div>
+        <button class="chatbot-close-btn" onclick="App.toggleChatbot()" aria-label="Close Chatbot">
+          <i class="fa-solid fa-chevron-down" style="font-size: 1.4rem;"></i>
+        </button>
+      </div>
+
+      <!-- Chat Messages Body Area -->
+      <div class="chatbot-messages" id="chatbot-messages-body">
+        <div class="chat-bubble bot">
+          Hi there! I am Maya, Vastu Home Decor's AI assistant. How can I help you today?
+        </div>
+      </div>
+
+      <!-- Input Area Panel -->
+      <div class="chatbot-input-area">
+        <input type="text" class="chatbot-input-field" id="chatbot-input-text" placeholder="Type your message..." onkeydown="if(event.key === 'Enter') App.sendChatMessage()">
+        <button class="chatbot-send-btn" id="chatbot-send-btn" onclick="App.sendChatMessage()" aria-label="Send Message">
+          <i class="fa-solid fa-paper-plane" style="font-size: 1.4rem;"></i>
+        </button>
+      </div>
+
+      <!-- Footer Attribution Credit -->
+      <div class="chatbot-footer-credit">
+        Powered by <strong>Vector.AI</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Link -->
+  <script src="app.js"></script>
+</body>
+</html>
